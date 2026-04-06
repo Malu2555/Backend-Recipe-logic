@@ -25,6 +25,8 @@ urlpatterns = [
     path('api/v1/', include('users.urls')),#users endpoints (register, list, detail, me, set-password)
     # for browsable api login/logout,direct login to the browsable api login page
     path('api-auth/', include('rest_framework.urls', namespace='rest_framework')),
+    path('api/v1/external/',include("recipes.api.spoonacular_urls")),
+   # path('health/', include('recipes.utils.health_check_urls'))
 ]
 # only added during development
 if settings.DEBUG:

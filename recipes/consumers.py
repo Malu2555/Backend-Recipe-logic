@@ -67,7 +67,7 @@ class ReviewConsumer(AsyncWebsocketConsumer):
     recipe-specific group.
     """
 
-    async def connect(self):# handling the initilal websocket connection/handshake
+    async def connect(self):# handling the initial websocket connection/handshake
         self.recipe_id = self.scope.get("url_route", {}).get("kwargs", {}).get("recipe_id")# specific recipe id from the url
         if not self.recipe_id:
             await self.close(code=4000)

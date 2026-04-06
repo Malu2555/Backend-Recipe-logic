@@ -1,7 +1,21 @@
 from django.db import models
 from django.conf import settings# import settings to access auth user model
-#add the auth model here
-#remember you dont have models yet since havent done migrations yet.
+
+
+#---1.YOUR PERMANENT MODEL(for spoonacular recipes that users wish to keep forever)
+class LocalRecipe(models.Model):
+    owner=models.ForeignKey(settings.AUTH_USER_MODEL,on_delete=models.CASCADE)
+    title=models.CharField(max_length=255,null=True,blank=True)
+    instructions=models.TextField(blank=True,null=True)
+    spoonacular_id=models.IntegerField(unique=True,blank=True,null=True)
+
+
+#remember you dont have the cache models yet since haven't done migrations yet.
+#---2.THE CACHE REGISTRATION---
+#This is CRITICAL.Without it "makemigrations" will ignore the cache table
+from .api.spoonacular_cachemodel import SpoonacularCache
+
+
 
 # Create your models here.
 '''add blank and null to the  fields to allow empty values for future repopulation,
@@ -93,4 +107,6 @@ class NutritionInfo(models.Model):
     carbohydrates = models.FloatField(help_text="Carbohydrates in grams", blank=True,null=True)
     def __str__(self):
         return f"Nutrition Info for {self.recipe.title}"
+# import spoonacular plugin model
+
 #Now register your app and models in admin.py or settings.py to manage them via Django admin interface

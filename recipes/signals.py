@@ -17,101 +17,11 @@ from django.dispatch import receiver
 from django.core.mail import send_mail
 from django.conf import settings
 from django.core.cache import cache
-from users.models import User
 from .models import Recipe, Review
 
 # Initialize logger for signals and cache operations
-logger = logging.getLogger('recipes.signals')# loogging is recording events that happen during execution,incase of errors you can trace back
+logger = logging.getLogger('recipes.signals')# logging is recording events that happen during execution,incase of errors you can trace back
 cache_logger = logging.getLogger('recipes.cache')
-
-
-@receiver(post_save, sender=User)
-def notify_user_registration(sender, instance, created, **kwargs):
-    """
-    Signal handler that sends a notification email when a new user registers.
-    This notifies both the new user and the team about the registration.
-    """
-    if created:  # Only trigger on user creation, not on updates
-        # Send welcome email to the new user
-        send_welcome_email(instance)
-        
-        # Notify the team about the new registration
-        notify_team_about_registration(instance)
-
-
-def send_welcome_email(user):
-    """
-    Send a welcome email to the newly registered user.
-    """
-    subject = "Welcome to Our Recipes App!"
-    message = f"""
-    Hello {user.name or user.email},
-    
-    Welcome to our Recipes Community! 🎉
-    
-    We're excited to have you on board. You can now:
-    - Browse and share recipes with our community
-    - Create your own recipe collections
-    - Follow other chefs and food enthusiasts
-    - Discover new cooking techniques and ingredients
-    
-    If you have any questions, feel free to reach out to our support team.
-    
-    Happy cooking!
-    
-    Best regards,
-    The Recipes App Team
-    """
-    
-    try:
-        send_mail(
-            subject,
-            message,
-            settings.DEFAULT_FROM_EMAIL,
-            [user.email],
-            fail_silently=False,
-        )
-        print(f"✓ Welcome email sent to {user.email}")
-    except Exception as e:
-        print(f"✗ Failed to send welcome email to {user.email}: {str(e)}")
-
-
-def notify_team_about_registration(user):
-    """
-    Send a notification email to the team about the new user registration.
-    """
-    subject = f"New User Registration: {user.name or user.email}"
-    message = f"""
-    A new user has registered on the Recipes App!
-    
-    User Details:
-    - Email: {user.email}
-    - Name: {user.name or "Not provided"}
-    - Date Joined: {user.date_joined}
-    - Is Chef: {user.is_chef}
-    
-    Please review the user profile in the admin panel if needed.
-    
-    Admin Panel: {settings.SITE_URL if hasattr(settings, 'SITE_URL') else 'Admin Dashboard'}
-    """
-    
-    try:
-        # Replace with your team's email addresses
-        team_emails = [
-            'maludev26@gmail.com',
-        ]
-        
-        send_mail(
-            subject,
-            message,
-            settings.DEFAULT_FROM_EMAIL,
-            team_emails,
-            fail_silently=False,
-        )
-        print(f"✓ Team notification sent for new user: {user.email}")
-    except Exception as e:
-        print(f"✗ Failed to send team notification: {str(e)}")
-        #since this is a dev env,you can skip smtp configurations and just use the console backend
 
 
 # ================================================================================

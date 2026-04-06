@@ -35,8 +35,8 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'daphne',
-    'channels',
+    'daphne',#websockket server for handling reviews/comments in real time(async ops)
+    'channels',# a lib that extends django to support websockets and async features
     'recipes',
     'users', #handles the custom user logic
     'django.contrib.admin',
@@ -45,9 +45,12 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'rest_framework',
-    'drf_spectacular',
+    'rest_framework',# for building the API endpoints
+    'rest_framework_simplejwt',# for token based auth
+    'drf_spectacular',#API schema documentation and swagger ui generation
     'drf_spectacular_sidecar',# for offline swagger ui assets/accessibility
+    'django_celery_beat',  # Celery Beat for scheduled tasks
+    'django_celery_results',  # Celery result backend support
 ]
 
 MIDDLEWARE = [
@@ -55,11 +58,12 @@ MIDDLEWARE = [
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
-    'django.contrib.auth.middleware.AuthenticationMiddleware',
+    'django.contrib.auth.middleware.AuthenticationMiddleware',#Users must be loaded first
+    'users.middleware.BlockedUserMiddleware',#And get checked if they are blocked
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
-'''this keeps all your api specific logic-like permission/auth classes,pagination,aopenapi schema gen etc
+'''this keeps all your api specific logic-like permission/auth classes,pagination,openapi schema gen etc
 separate rom your general django settings'''
 REST_FRAMEWORK = {
     'DEFAULT_THROTTLE_CLASSES': [
@@ -79,19 +83,20 @@ REST_FRAMEWORK = {
 
 # Simple JWT settings for token-based authentication
 #this for your nativescript mobile app or react native app frontends and your web app
+#might use vue.js for frontend webapp,ionic vue+Capacitor for mobile apps
 SIMPLE_JWT = {
     'ACCESS_TOKEN_LIFETIME': timedelta(minutes=60), #tokens valid for 1 hour,short life for web sec
     'REFRESH_TOKEN_LIFETIME': timedelta(days=7),    #refresh tokens valid for 7 days,long for mobile convenience
     'ROTATE_REFRESH_TOKENS': True,
     'BLACKLIST_AFTER_ROTATION': True,
-    'AUTH_HEADER_TYPES': ('Bearer',),}# for you nativescript frontend
+    'AUTH_HEADER_TYPES': ('Bearer',),}# for you nativescript frontend/vue ionic + capacitor
 
 SPECTACULAR_SETTINGS = {
     'TITLE': 'My Recipe app API',
     'DESCRIPTION': 'API for managing recipes, ingredients, categories, tags, reviews, and more.',
     'VERSION': '1.0.0',
     'SERVE_INCLUDE_SCHEMA': False,
-    #this is good for your  frontenddevs,it eases readability of your models/endpoints
+    #this is good for your  frontend devs,it eases readability of your models/endpoints
     #splits large request/response bodies into their own components
      'COMPONENT_SPLIT_REQUEST': True,
     'SWAGGER_UI_SETTINGS': {
@@ -135,7 +140,7 @@ DATABASES = {
     }
 }
 
-CACHES = {
+CACHES = {#INSTANCE (A)AND CONFIGURATION OF REDIS FOR CACHING PURPOSES,SEPARATE FROM CELERY USAGE
     'default': {
         'BACKEND': 'django.core.cache.backends.redis.RedisCache',
         #using db 1 for caching rate limiting data,separate from other redis usage
@@ -143,10 +148,17 @@ CACHES = {
         'OPTIONS': {
             'CLIENT_CLASS': 'django_redis.client.DefaultClient',
             'IGNORE_EXCEPTIONS': True,  # Avoid crashing if Redis is down
-        }
+        },
+        
     }
 }
 
+CACHE_TIMEOUT = {
+    'recipe_search': 60 * 60,  # Cache search results for 1 hour
+    'recipe_detail': 60 * 60 * 2,  # Cache recipe details for 2 hrs
+    'random_recipe': 60 * 30,  # Cache random recipe for 30 mins
+    'spoonacular': 60 * 60 * 24,  # Cache Spoonacular API responses for 24 hours
+}
 #configure channels to use redis as the channel layer backend and real-time message broker/real time recipe updates
 CHANNEL_LAYERS = {
     'default': {
@@ -233,8 +245,8 @@ LOGGING = {
         },
         # JSON-compatible format for structured logging
         'json_format': {
-            'format': '{"level": "{levelname}", "time": "{asctime}", "logger": "{name}", "message": "{message}"}',
-            'style': '{',
+            'format': '{"level": "%(levelname)s", "time": "%(asctime)s", "logger": "%(name)s", "message": "%(message)s"}',
+            'style': '%',
             'datefmt': '%Y-%m-%d %H:%M:%S',
         },
     },
@@ -243,7 +255,7 @@ LOGGING = {
         'console': {
             'level': 'DEBUG',
             'class': 'logging.StreamHandler',
-            'formatter': 'verbose',
+            'formatter': 'simple',
         },
         # File handler for signals logging
         'signals_file': {
@@ -344,5 +356,76 @@ LOGGING = {
             'level': 'DEBUG' if DEBUG else 'INFO',
             'propagate': True,
         },
+        # Logger for Spoonacular API integration
+        'spoonacular_service': {
+            'handlers': ['console', 'app_file', 'error_file'],
+            'level': 'INFO',
+            'propagate': True,
+        },
+        # Logger for users signals and tasks
+        'users.signals': {
+            'handlers': ['console', 'signals_file', 'error_file'],
+            'level': 'INFO',
+            'propagate': False,
+        },
+        # Logger for Celery tasks
+        'users.tasks': {
+            'handlers': ['console', 'app_file', 'error_file'],
+            'level': 'INFO',
+            'propagate': False,
+        },
+        'recipes.tasks': {
+            'handlers': ['console', 'app_file', 'error_file'],
+            'level': 'INFO',
+            'propagate': False,
+        },
     },
 }
+
+# ================================================================================
+# CELERY CONFIGURATION
+# ================================================================================
+# Configure Celery for asynchronous task execution
+# Redis is used as the message broker for task queuing
+
+# Celery broker URL (Redis connection string)
+#INSTANCE (B)use a different port t o separate it from your caching redis instance.
+CELERY_BROKER_URL = env('CELERY_BROKER_URL', default='redis://127.0.0.1:6380')
+
+# Celery result backend URL (where results are stored)
+CELERY_RESULT_BACKEND = env('CELERY_RESULT_BACKEND', default='redis://127.0.0.1:6380')
+
+# Task serialization settings
+CELERY_ACCEPT_CONTENT = ['json']  # Accept JSON from clients
+CELERY_TASK_SERIALIZER = 'json'  # Serialize tasks to JSON format
+CELERY_RESULT_SERIALIZER = 'json'  # Serialize results to JSON format
+CELERY_TIMEZONE = TIME_ZONE  # Use Django's configured timezone
+
+# Task execution settings
+CELERY_TASK_TRACK_STARTED = True  # Track when tasks start executing
+CELERY_TASK_TIME_LIMIT = 30 * 60  # Hard time limit (30 minutes)
+CELERY_TASK_SOFT_TIME_LIMIT = 25 * 60  # Soft time limit (25 minutes)
+
+# Result backend settings
+CELERY_RESULT_EXPIRES = 3600  # Results expire after 1 hour
+CELERY_RESULT_PERSISTENT = True  # Keep results even after expiry in logs
+
+# Task routing (optional - organize tasks by app)
+CELERY_TASK_ROUTES = {
+    'users.tasks.*': {'queue': 'email'},  # Route all user tasks to 'email' queue
+    'recipes.tasks.*': {'queue': 'maintenance'},  # Route recipe tasks to 'maintenance' queue
+}
+
+# Celery Beat Schedule - import from separate config
+from project_two.celery_config import CELERY_BEAT_SCHEDULE
+
+# Maximum number of tasks a worker can accept at once
+CELERY_WORKER_PREFETCH_MULTIPLIER = 4
+
+# Task execution pool (solo = single process, good for development)
+# For production, use 'prefork' (multi-process) or 'gevent' (async)
+#CELERY_WORKER_POOL = 'solo'  # Uncomment for development or add to dev settings
+
+# Log settings for Celery
+CELERY_WORKER_LOG_FORMAT = '[%(levelname)s %(asctime)s %(name)s] %(message)s'
+CELERY_WORKER_TASK_LOG_FORMAT = '[%(levelname)s %(asctime)s %(name)s %(task_name)s[%(task_id)s]] %(message)s'

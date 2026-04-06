@@ -1,0 +1,25 @@
+# Celery & Django Celery Beat Requirements
+
+# Add these packages to your requirements.txt if not already present:
+
+celery==5.3.4                    # Asynchronous task queue
+redis==5.0.1                     # Redis client for Python
+django-celery-beat==2.5.0        # Celery Beat scheduler with Django admin integration
+django-celery-results==2.5.0     # Persistent result backend for Celery
+
+# Optional but recommended for production:
+flower==2.0.1                    # Web-based Celery monitoring tool
+gevent==23.9.1                   # Green threading for gevent worker pool (alternative to prefork)
+
+# If using PostgreSQL as result backend (production):
+psycopg2-binary==2.9.9          # PostgreSQL adapter for Python
+
+# Install with pip:
+# pip install -r requirements.txt
+
+# Or install individual packages:
+# pip install celery redis django-celery-beat django-celery-results
+
+# Verify installation:
+# python -c "import celery; print(celery.__version__)"
+# python -c "import redis; print(redis.__version__)"

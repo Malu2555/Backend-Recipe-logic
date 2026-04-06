@@ -3,8 +3,14 @@ from drf_spectacular.utils import extend_schema, extend_schema_view
 from rest_framework.throttling import UserRateThrottle, AnonRateThrottle, ScopedRateThrottle
 from django.core.cache import cache
 import logging
+from django.http import HttpResponseForbidden
 
 # your data models
+from django.db.models import Q # for doing queries in search functionality (see RecipeSearchView in views.py)
+from  rest_framework.views import APIView
+from rest_framework import response
+from .api import spoonacular_services
+from .api import spoonacular_serializers
 from .models import (
 	Recipe,
 	Ingredient,
@@ -15,6 +21,7 @@ from .models import (
 	Collection,
 	Variation,
 	NutritionInfo,
+	LocalRecipe,
 )
 # your data serializers,transform models to json, vice versa,validate data
 from .serializers import (
@@ -27,11 +34,47 @@ from .serializers import (
 	CollectionSerializer,
 	VariationSerializer,
 	NutritionInfoSerializer,
+	LocalRecipeSerializer,
 )
+
+
+class UnifiedRecipeSearchView(APIView):
+	def get(self,request):
+		query=request.query_params.get('q','')
+		if query:
+			#1.search for(local) recipes where title or description contains the query
+			local_queries=Recipe.objects.filter(
+				Q(title__icontains=query)|
+				Q(descriptions__icontains=query)
+			)
+			local_data=RecipeSerializer(local_queries,many=True).data
+
+			#2.Search for external recipes(spoonacular_services handles the cache)
+			Raw_api_response=spoonacular_services.search_recipes(query)
+			Raw_results=Raw_api_response.get("results",[])
+			#clean the and validate the external data using your spoonacular serializer
+			external_serializer=spoonacular_serializers(Raw_results,many=True)
+			external_data=external_serializer.data
+			#Unified response
+			return response({
+				"local":local_data,
+				"spoonacular":external_data})
+	
 
 # Initialize logger for caching operations
 cache_logger = logging.getLogger('recipes.cache')
 
+
+		
+#logic for creating recipes,only allow non-blocked users to create recipes,
+#admins can always create,chefs and regular users can create too.
+
+def create_recipe(request):
+	if request.user.is_blocked:
+		return HttpResponseForbidden("Your account has been blocked")#prob needs view in the frontend
+	if request.user.is_superuser:
+		return
+	create_recipe(request)# admin can always create,chefs and regular users can create too.
 
 # ================================================================================
 # MANUAL CACHING FUNCTIONS
@@ -186,7 +229,7 @@ def get_permissions(self):
  if self.action == 'list' or self.action == 'retrieve' or self.action== 'create_review':
 		 return [permissions.AllowAny()]#public access for read-only actions
  #only logged-in users can create,update,delete
- #maybe anonymous will make changes to recipes in future
+ #maybe anonymous will make changes to recipes in future(bad design idea so don't)
 DEFAULT_PERMISSIONS=[permissions.IsAuthenticatedOrReadOnly]
 @extend_schema_view(
 	list=extend_schema(summary="List recipes", description="Retrieve a paginated list of recipes."),
@@ -205,7 +248,7 @@ class RecipeViewSet(viewsets.ModelViewSet):
 	- Uses `RecipeSerializer` for full nested representation.
 	- Searchable by `title`, `description`, `Author`, `tags` and `categories`.
 	-The queryset tells your view which data to operate on,can return lists,retrieve/update/delete
-	-The manager(objects) is the interface btwn the py class and db
+	-The manager(objects) is the interface btn the py class and db
     - prefetch_related optimizes many-to-many and reverse foreign key lookups
 	"""
 	queryset = Recipe.objects.all().prefetch_related("tags", "categories", "recipe_ingredients", "reviews").select_related("nutrition_info")
@@ -301,6 +344,47 @@ class NutritionInfoViewSet(viewsets.ModelViewSet):
 	queryset = NutritionInfo.objects.select_related("recipe").all()
 	serializer_class = NutritionInfoSerializer
 	permission_classes = DEFAULT_PERMISSIONS
+
+
+@extend_schema_view(
+	list=extend_schema(summary="List saved Spoonacular recipes", description="List recipes user has saved from Spoonacular API."),
+	create=extend_schema(summary="Save a Spoonacular recipe", description="Save a recipe from Spoonacular to user's collection."),
+	retrieve=extend_schema(summary="Get saved recipe details", description="Get a saved Spoonacular recipe by ID."),
+	update=extend_schema(summary="Update saved recipe", description="Update a saved recipe's details."),
+	destroy=extend_schema(summary="Delete saved recipe", description="Delete a saved recipe from user's collection."),
+)
+class LocalRecipeViewSet(viewsets.ModelViewSet):
+	"""ViewSet for LocalRecipe (Saved Spoonacular Recipes).
+	
+	This viewset allows authenticated users to:
+	- View recipes they've saved from the Spoonacular API
+	- Create new saved recipes
+	- Update their saved recipes
+	- Delete saved recipes
+	
+	Permissions:
+	- List & Retrieve: IsAuthenticated (users see only their own saved recipes)
+	- Create & Update: IsAuthenticated (owner only)
+	- Delete: IsAuthenticated (owner only)
+	
+	Security:
+	- Each user can only view/modify their own saved recipes
+	- The queryset is automatically filtered by the current user
+	"""
+	serializer_class = LocalRecipeSerializer
+	permission_classes = [permissions.IsAuthenticated]
+	filter_backends = [filters.SearchFilter, filters.OrderingFilter]
+	search_fields = ["title", "spoonacular_id"]
+	ordering_fields = ["id", "title"]
+	ordering = ["-id"]
+
+	def get_queryset(self):
+		"""Filter queryset to show only recipes saved by the current user."""
+		return LocalRecipe.objects.filter(owner=self.request.user)
+
+	def perform_create(self, serializer):
+		"""Automatically set the owner to the current user when creating a recipe."""
+		serializer.save(owner=self.request.user)
 
 
 # Example router registration (add to your project's urls.py or app urls):

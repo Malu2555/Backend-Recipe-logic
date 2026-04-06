@@ -1,0 +1,809 @@
+[INFO] 2026-03-31 11:12:39 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:11832 Thread:10872 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 11:13:53 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:11832 Thread:10872 | C:\Users\HomePC\Django\project_two\recipes\admin.py changed, reloading.
+[INFO] 2026-03-31 11:13:55 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:12312 Thread:11088 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 11:17:00 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:12436 Thread:7060 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 11:20:42 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:12312 Thread:11088 | C:\Users\HomePC\Django\project_two\recipes\admin.py changed, reloading.
+[INFO] 2026-03-31 11:20:42 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:12436 Thread:7060 | C:\Users\HomePC\Django\project_two\recipes\admin.py changed, reloading.
+[INFO] 2026-03-31 11:20:45 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:2280 Thread:12728 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 11:20:48 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:2280 Thread:12728 | C:\Users\HomePC\Django\project_two\recipes\admin.py changed, reloading.
+[INFO] 2026-03-31 11:20:48 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:10336 Thread:9084 | C:\Users\HomePC\Django\project_two\recipes\admin.py changed, reloading.
+[INFO] 2026-03-31 11:20:50 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:12600 Thread:8520 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 11:20:50 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:10376 Thread:3164 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 11:21:02 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:10376 Thread:3164 | C:\Users\HomePC\Django\project_two\recipes\admin.py changed, reloading.
+[INFO] 2026-03-31 11:21:02 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:12600 Thread:8520 | C:\Users\HomePC\Django\project_two\recipes\admin.py changed, reloading.
+[INFO] 2026-03-31 11:21:04 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:16064 Thread:10456 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 11:21:04 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:8200 Thread:4880 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 11:21:07 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:16064 Thread:10456 | C:\Users\HomePC\Django\project_two\recipes\admin.py changed, reloading.
+[INFO] 2026-03-31 11:21:07 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:8200 Thread:4880 | C:\Users\HomePC\Django\project_two\recipes\admin.py changed, reloading.
+[INFO] 2026-03-31 11:21:10 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:13464 Thread:6240 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 11:21:10 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:12388 Thread:9572 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 11:21:17 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:13464 Thread:6240 | C:\Users\HomePC\Django\project_two\recipes\admin.py changed, reloading.
+[INFO] 2026-03-31 11:21:17 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:12388 Thread:9572 | C:\Users\HomePC\Django\project_two\recipes\admin.py changed, reloading.
+[INFO] 2026-03-31 11:21:19 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:16452 Thread:16400 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 11:21:42 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:7392 Thread:14100 | C:\Users\HomePC\Django\project_two\recipes\admin.py changed, reloading.
+[INFO] 2026-03-31 11:21:42 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:16452 Thread:16400 | C:\Users\HomePC\Django\project_two\recipes\admin.py changed, reloading.
+[INFO] 2026-03-31 11:21:44 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:6208 Thread:12324 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 11:21:44 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:16240 Thread:5332 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 11:32:08 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:16240 Thread:5332 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 11:32:08 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:6208 Thread:12324 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 11:32:10 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:13816 Thread:5288 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 11:32:10 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:16580 Thread:2212 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 11:32:13 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:13816 Thread:5288 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 11:32:13 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:16580 Thread:2212 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 11:32:15 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:16424 Thread:15500 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 11:32:15 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:15348 Thread:4784 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 11:32:23 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:15348 Thread:4784 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 11:32:23 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:16424 Thread:15500 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 11:32:25 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:6888 Thread:8544 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 11:38:26 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:8228 Thread:5796 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 11:38:26 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:6888 Thread:8544 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 11:38:28 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:15828 Thread:11072 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 11:38:28 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:16756 Thread:6384 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 11:38:32 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:15828 Thread:11072 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 11:38:32 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:16756 Thread:6384 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 11:38:34 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:13364 Thread:14340 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 11:38:34 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:10648 Thread:11084 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 11:38:37 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:10648 Thread:11084 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 11:38:37 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:13364 Thread:14340 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 11:38:39 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:4436 Thread:8092 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 11:38:39 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:6560 Thread:10336 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 11:38:43 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:4436 Thread:8092 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 11:38:44 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:6560 Thread:10336 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 11:38:45 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:10480 Thread:8548 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 11:38:46 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:12620 Thread:4092 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 11:38:50 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:12620 Thread:4092 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 11:38:50 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:10480 Thread:8548 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 11:38:52 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:15232 Thread:6904 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 11:38:52 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:7944 Thread:17148 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 11:38:55 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:15232 Thread:6904 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 11:38:55 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:7944 Thread:17148 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 11:38:57 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:9872 Thread:5860 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 11:38:57 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:12564 Thread:11048 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 11:39:13 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:9872 Thread:5860 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 11:39:13 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:12564 Thread:11048 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 11:39:15 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:6448 Thread:12600 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 11:39:15 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:6976 Thread:2856 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 11:40:04 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:6976 Thread:2856 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 11:40:05 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:6448 Thread:12600 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 11:40:07 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:3196 Thread:11796 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 11:40:07 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:8936 Thread:8708 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 11:40:09 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:3196 Thread:11796 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 11:40:09 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:8936 Thread:8708 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 11:40:11 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:15460 Thread:1012 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 11:40:11 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:6544 Thread:7904 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 11:40:16 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:6544 Thread:7904 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 11:40:16 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:15460 Thread:1012 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 11:40:18 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:15396 Thread:14420 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 11:40:18 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:15364 Thread:10872 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 11:40:23 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:15396 Thread:14420 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 11:40:23 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:15364 Thread:10872 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 11:40:25 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:13904 Thread:1860 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 11:40:25 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:3712 Thread:8140 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 11:40:29 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:13904 Thread:1860 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 11:40:29 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:3712 Thread:8140 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 11:40:32 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:1484 Thread:8184 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 11:40:32 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:4052 Thread:5256 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 11:40:34 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:4052 Thread:5256 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 11:40:34 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:1484 Thread:8184 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 11:40:36 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:17088 Thread:17304 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 11:40:36 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:1756 Thread:1116 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 11:43:37 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:17088 Thread:17304 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 11:43:37 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:1756 Thread:1116 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 11:43:40 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:15356 Thread:11508 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 11:43:40 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:2576 Thread:5168 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 11:43:42 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:15356 Thread:11508 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 11:43:42 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:2576 Thread:5168 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 11:43:44 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:14192 Thread:4436 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 11:43:44 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:13040 Thread:6356 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 11:43:48 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:13040 Thread:6356 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 11:43:48 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:14192 Thread:4436 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 11:43:50 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:9020 Thread:15036 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 11:43:50 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:5432 Thread:1132 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 11:43:54 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:9020 Thread:15036 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 11:43:54 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:5432 Thread:1132 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 11:43:56 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:7268 Thread:12876 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 11:43:56 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:1776 Thread:9788 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 11:44:32 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:7268 Thread:12876 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 11:44:32 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:1776 Thread:9788 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 11:44:35 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:8200 Thread:15268 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 11:44:35 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:2076 Thread:4652 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 11:44:42 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:8200 Thread:15268 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 11:44:42 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:2076 Thread:4652 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 11:44:44 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:12948 Thread:4092 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 11:44:44 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:6208 Thread:14196 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 11:44:48 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:6208 Thread:14196 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 11:44:48 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:12948 Thread:4092 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 11:44:50 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:1924 Thread:2420 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 11:44:50 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:10300 Thread:10260 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 11:44:50 | daphne.server | server.py:run:120 | Process:10300 Thread:1116 | HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[INFO] 2026-03-31 11:44:50 | daphne.server | server.py:run:129 | Process:10300 Thread:1116 | Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[INFO] 2026-03-31 11:44:50 | daphne.server | server.py:listen_success:160 | Process:10300 Thread:1116 | Listening on TCP address 127.0.0.1:8000
+[INFO] 2026-03-31 11:44:50 | daphne.server | server.py:run:120 | Process:1924 Thread:8184 | HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[INFO] 2026-03-31 11:44:50 | daphne.server | server.py:run:129 | Process:1924 Thread:8184 | Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[CRITICAL] 2026-03-31 11:44:50 | daphne.server | server.py:listen_error:167 | Process:1924 Thread:8184 | Listen failure: Couldn't listen on 127.0.0.1:8000: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted.
+[INFO] 2026-03-31 11:45:52 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:1924 Thread:2420 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 11:45:52 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:10300 Thread:10260 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 11:45:54 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:16964 Thread:15876 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 11:45:54 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:16424 Thread:12056 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 11:45:55 | daphne.server | server.py:run:120 | Process:16424 Thread:16164 | HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[INFO] 2026-03-31 11:45:55 | daphne.server | server.py:run:129 | Process:16424 Thread:16164 | Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[INFO] 2026-03-31 11:45:55 | daphne.server | server.py:run:120 | Process:16964 Thread:8692 | HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[INFO] 2026-03-31 11:45:55 | daphne.server | server.py:listen_success:160 | Process:16424 Thread:16164 | Listening on TCP address 127.0.0.1:8000
+[INFO] 2026-03-31 11:45:55 | daphne.server | server.py:run:129 | Process:16964 Thread:8692 | Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[CRITICAL] 2026-03-31 11:45:55 | daphne.server | server.py:listen_error:167 | Process:16964 Thread:8692 | Listen failure: Couldn't listen on 127.0.0.1:8000: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted.
+[INFO] 2026-03-31 11:46:15 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:16964 Thread:15876 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 11:46:17 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:4232 Thread:15808 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 11:46:17 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:6672 Thread:4992 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 11:46:18 | daphne.server | server.py:run:120 | Process:4232 Thread:15244 | HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[INFO] 2026-03-31 11:46:18 | daphne.server | server.py:run:129 | Process:4232 Thread:15244 | Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[INFO] 2026-03-31 11:46:18 | daphne.server | server.py:listen_success:160 | Process:4232 Thread:15244 | Listening on TCP address 127.0.0.1:8000
+[INFO] 2026-03-31 11:46:18 | daphne.server | server.py:run:120 | Process:6672 Thread:17088 | HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[INFO] 2026-03-31 11:46:18 | daphne.server | server.py:run:129 | Process:6672 Thread:17088 | Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[CRITICAL] 2026-03-31 11:46:18 | daphne.server | server.py:listen_error:167 | Process:6672 Thread:17088 | Listen failure: Couldn't listen on 127.0.0.1:8000: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted.
+[ERROR] 2026-03-31 11:48:26 | django.request | log.py:log_response:253 | Process:4232 Thread:15976 | Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "C:\Users\HomePC\Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HomePC\Django\.venv\Lib\site-packages\django\utils\deprecation.py", line 122, in __call__
+    response = self.process_response(request, response)
+  File "C:\Users\HomePC\Django\.venv\Lib\site-packages\django\middleware\common.py", line 107, in process_response
+    if response.status_code == 404 and self.should_redirect_with_slash(request):
+       ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'status_code'
+[ERROR] 2026-03-31 11:48:26 | django.channels.server | runserver.py:log_action:194 | Process:4232 Thread:15244 | [35;1mHTTP GET /admin/ 500 [0.42, 127.0.0.1:58289][0m
+[ERROR] 2026-03-31 11:48:26 | django.request | log.py:log_response:253 | Process:4232 Thread:12528 | Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\HomePC\Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HomePC\Django\.venv\Lib\site-packages\django\utils\deprecation.py", line 122, in __call__
+    response = self.process_response(request, response)
+  File "C:\Users\HomePC\Django\.venv\Lib\site-packages\django\middleware\common.py", line 107, in process_response
+    if response.status_code == 404 and self.should_redirect_with_slash(request):
+       ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'status_code'
+[ERROR] 2026-03-31 11:48:26 | django.channels.server | runserver.py:log_action:194 | Process:4232 Thread:15244 | [35;1mHTTP GET /favicon.ico 500 [0.05, 127.0.0.1:58289][0m
+[ERROR] 2026-03-31 11:48:30 | django.request | log.py:log_response:253 | Process:4232 Thread:1184 | Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "C:\Users\HomePC\Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HomePC\Django\.venv\Lib\site-packages\django\utils\deprecation.py", line 122, in __call__
+    response = self.process_response(request, response)
+  File "C:\Users\HomePC\Django\.venv\Lib\site-packages\django\middleware\common.py", line 107, in process_response
+    if response.status_code == 404 and self.should_redirect_with_slash(request):
+       ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'status_code'
+[ERROR] 2026-03-31 11:48:30 | django.channels.server | runserver.py:log_action:194 | Process:4232 Thread:15244 | [35;1mHTTP GET /admin/ 500 [0.05, 127.0.0.1:58289][0m
+[ERROR] 2026-03-31 11:48:30 | django.request | log.py:log_response:253 | Process:4232 Thread:15876 | Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\HomePC\Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HomePC\Django\.venv\Lib\site-packages\django\utils\deprecation.py", line 122, in __call__
+    response = self.process_response(request, response)
+  File "C:\Users\HomePC\Django\.venv\Lib\site-packages\django\middleware\common.py", line 107, in process_response
+    if response.status_code == 404 and self.should_redirect_with_slash(request):
+       ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'status_code'
+[ERROR] 2026-03-31 11:48:30 | django.channels.server | runserver.py:log_action:194 | Process:4232 Thread:15244 | [35;1mHTTP GET /favicon.ico 500 [0.04, 127.0.0.1:58289][0m
+[INFO] 2026-03-31 12:02:45 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:4232 Thread:15808 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 12:02:45 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:6672 Thread:4992 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 12:02:47 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:16776 Thread:7176 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 12:02:47 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:3032 Thread:14196 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 12:02:47 | daphne.server | server.py:run:120 | Process:16776 Thread:12420 | HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[INFO] 2026-03-31 12:02:47 | daphne.server | server.py:run:129 | Process:16776 Thread:12420 | Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[INFO] 2026-03-31 12:02:47 | daphne.server | server.py:listen_success:160 | Process:16776 Thread:12420 | Listening on TCP address 127.0.0.1:8000
+[INFO] 2026-03-31 12:02:48 | daphne.server | server.py:run:120 | Process:3032 Thread:6880 | HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[INFO] 2026-03-31 12:02:48 | daphne.server | server.py:run:129 | Process:3032 Thread:6880 | Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[CRITICAL] 2026-03-31 12:02:48 | daphne.server | server.py:listen_error:167 | Process:3032 Thread:6880 | Listen failure: Couldn't listen on 127.0.0.1:8000: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted.
+[INFO] 2026-03-31 12:02:50 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:3032 Thread:14196 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 12:02:50 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:16776 Thread:7176 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 12:02:52 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:1792 Thread:8860 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 12:02:52 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:12312 Thread:5848 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 12:02:52 | daphne.server | server.py:run:120 | Process:1792 Thread:8696 | HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[INFO] 2026-03-31 12:02:53 | daphne.server | server.py:run:129 | Process:1792 Thread:8696 | Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[INFO] 2026-03-31 12:02:53 | daphne.server | server.py:listen_success:160 | Process:1792 Thread:8696 | Listening on TCP address 127.0.0.1:8000
+[INFO] 2026-03-31 12:02:53 | daphne.server | server.py:run:120 | Process:12312 Thread:8368 | HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[INFO] 2026-03-31 12:02:53 | daphne.server | server.py:run:129 | Process:12312 Thread:8368 | Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[CRITICAL] 2026-03-31 12:02:53 | daphne.server | server.py:listen_error:167 | Process:12312 Thread:8368 | Listen failure: Couldn't listen on 127.0.0.1:8000: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted.
+[INFO] 2026-03-31 12:05:59 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:12312 Thread:5848 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 12:06:00 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:1792 Thread:8860 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 12:06:02 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:13044 Thread:5452 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 12:06:02 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:6580 Thread:11220 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 12:06:02 | daphne.server | server.py:run:120 | Process:13044 Thread:17248 | HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[INFO] 2026-03-31 12:06:02 | daphne.server | server.py:run:129 | Process:13044 Thread:17248 | Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[INFO] 2026-03-31 12:06:02 | daphne.server | server.py:listen_success:160 | Process:13044 Thread:17248 | Listening on TCP address 127.0.0.1:8000
+[INFO] 2026-03-31 12:06:03 | daphne.server | server.py:run:120 | Process:6580 Thread:15708 | HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[INFO] 2026-03-31 12:06:03 | daphne.server | server.py:run:129 | Process:6580 Thread:15708 | Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[CRITICAL] 2026-03-31 12:06:03 | daphne.server | server.py:listen_error:167 | Process:6580 Thread:15708 | Listen failure: Couldn't listen on 127.0.0.1:8000: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted.
+[INFO] 2026-03-31 12:06:21 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:6580 Thread:11220 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 12:06:22 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:13044 Thread:5452 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 12:06:23 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:16536 Thread:6280 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 12:06:24 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:8868 Thread:1776 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 12:06:24 | daphne.server | server.py:run:120 | Process:16536 Thread:4648 | HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[INFO] 2026-03-31 12:06:24 | daphne.server | server.py:run:129 | Process:16536 Thread:4648 | Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[INFO] 2026-03-31 12:06:24 | daphne.server | server.py:listen_success:160 | Process:16536 Thread:4648 | Listening on TCP address 127.0.0.1:8000
+[INFO] 2026-03-31 12:06:25 | daphne.server | server.py:run:120 | Process:8868 Thread:3172 | HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[INFO] 2026-03-31 12:06:25 | daphne.server | server.py:run:129 | Process:8868 Thread:3172 | Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[CRITICAL] 2026-03-31 12:06:25 | daphne.server | server.py:listen_error:167 | Process:8868 Thread:3172 | Listen failure: Couldn't listen on 127.0.0.1:8000: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted.
+[INFO] 2026-03-31 12:06:26 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:16536 Thread:6280 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 12:06:26 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:8868 Thread:1776 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 12:06:28 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:7324 Thread:10456 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 12:06:29 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:7916 Thread:9608 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 12:06:29 | daphne.server | server.py:run:120 | Process:7324 Thread:8152 | HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[INFO] 2026-03-31 12:06:29 | daphne.server | server.py:run:129 | Process:7324 Thread:8152 | Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[INFO] 2026-03-31 12:06:29 | daphne.server | server.py:listen_success:160 | Process:7324 Thread:8152 | Listening on TCP address 127.0.0.1:8000
+[INFO] 2026-03-31 12:06:30 | daphne.server | server.py:run:120 | Process:7916 Thread:4948 | HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[INFO] 2026-03-31 12:06:30 | daphne.server | server.py:run:129 | Process:7916 Thread:4948 | Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[CRITICAL] 2026-03-31 12:06:30 | daphne.server | server.py:listen_error:167 | Process:7916 Thread:4948 | Listen failure: Couldn't listen on 127.0.0.1:8000: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted.
+[INFO] 2026-03-31 12:06:31 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:7324 Thread:10456 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 12:06:31 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:7916 Thread:9608 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 12:06:33 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:13260 Thread:4900 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 12:06:34 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:16988 Thread:17120 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 12:06:34 | daphne.server | server.py:run:120 | Process:13260 Thread:8708 | HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[INFO] 2026-03-31 12:06:34 | daphne.server | server.py:run:129 | Process:13260 Thread:8708 | Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[INFO] 2026-03-31 12:06:34 | daphne.server | server.py:listen_success:160 | Process:13260 Thread:8708 | Listening on TCP address 127.0.0.1:8000
+[INFO] 2026-03-31 12:06:35 | daphne.server | server.py:run:120 | Process:16988 Thread:2628 | HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[INFO] 2026-03-31 12:06:35 | daphne.server | server.py:run:129 | Process:16988 Thread:2628 | Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[CRITICAL] 2026-03-31 12:06:35 | daphne.server | server.py:listen_error:167 | Process:16988 Thread:2628 | Listen failure: Couldn't listen on 127.0.0.1:8000: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted.
+[INFO] 2026-03-31 12:06:38 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:13260 Thread:4900 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 12:06:38 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:16988 Thread:17120 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 12:06:41 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:15096 Thread:10728 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 12:06:41 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:8568 Thread:12828 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 12:06:41 | daphne.server | server.py:run:120 | Process:15096 Thread:3192 | HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[INFO] 2026-03-31 12:06:41 | daphne.server | server.py:run:129 | Process:15096 Thread:3192 | Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[INFO] 2026-03-31 12:06:41 | daphne.server | server.py:listen_success:160 | Process:15096 Thread:3192 | Listening on TCP address 127.0.0.1:8000
+[INFO] 2026-03-31 12:06:41 | daphne.server | server.py:run:120 | Process:8568 Thread:4808 | HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[INFO] 2026-03-31 12:06:41 | daphne.server | server.py:run:129 | Process:8568 Thread:4808 | Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[CRITICAL] 2026-03-31 12:06:41 | daphne.server | server.py:listen_error:167 | Process:8568 Thread:4808 | Listen failure: Couldn't listen on 127.0.0.1:8000: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted.
+[INFO] 2026-03-31 12:06:43 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:15096 Thread:10728 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 12:06:43 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:8568 Thread:12828 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 12:06:45 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:2384 Thread:15516 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 12:06:45 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:15876 Thread:5364 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 12:06:46 | daphne.server | server.py:run:120 | Process:15876 Thread:10248 | HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[INFO] 2026-03-31 12:06:46 | daphne.server | server.py:run:120 | Process:2384 Thread:2592 | HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[INFO] 2026-03-31 12:06:46 | daphne.server | server.py:run:129 | Process:2384 Thread:2592 | Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[INFO] 2026-03-31 12:06:46 | daphne.server | server.py:listen_success:160 | Process:15876 Thread:10248 | Listening on TCP address 127.0.0.1:8000
+[CRITICAL] 2026-03-31 12:06:46 | daphne.server | server.py:listen_error:167 | Process:2384 Thread:2592 | Listen failure: Couldn't listen on 127.0.0.1:8000: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted.
+[INFO] 2026-03-31 12:06:50 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:2384 Thread:15516 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 12:06:51 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:15876 Thread:5364 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 12:06:52 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:10448 Thread:5176 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 12:06:52 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:8088 Thread:15696 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 12:06:53 | daphne.server | server.py:run:120 | Process:8088 Thread:11612 | HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[INFO] 2026-03-31 12:06:53 | daphne.server | server.py:run:129 | Process:8088 Thread:11612 | Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[INFO] 2026-03-31 12:06:53 | daphne.server | server.py:listen_success:160 | Process:8088 Thread:11612 | Listening on TCP address 127.0.0.1:8000
+[INFO] 2026-03-31 12:06:53 | daphne.server | server.py:run:120 | Process:10448 Thread:5756 | HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[INFO] 2026-03-31 12:06:53 | daphne.server | server.py:run:129 | Process:10448 Thread:5756 | Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[CRITICAL] 2026-03-31 12:06:53 | daphne.server | server.py:listen_error:167 | Process:10448 Thread:5756 | Listen failure: Couldn't listen on 127.0.0.1:8000: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted.
+[INFO] 2026-03-31 12:06:59 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:10448 Thread:5176 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 12:06:59 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:8088 Thread:15696 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 12:07:02 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:15244 Thread:7980 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 12:07:02 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:4824 Thread:3840 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 12:07:02 | daphne.server | server.py:run:120 | Process:15244 Thread:8604 | HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[INFO] 2026-03-31 12:07:02 | daphne.server | server.py:run:129 | Process:15244 Thread:8604 | Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[INFO] 2026-03-31 12:07:02 | daphne.server | server.py:listen_success:160 | Process:15244 Thread:8604 | Listening on TCP address 127.0.0.1:8000
+[INFO] 2026-03-31 12:07:03 | daphne.server | server.py:run:120 | Process:4824 Thread:8064 | HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[INFO] 2026-03-31 12:07:03 | daphne.server | server.py:run:129 | Process:4824 Thread:8064 | Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[CRITICAL] 2026-03-31 12:07:03 | daphne.server | server.py:listen_error:167 | Process:4824 Thread:8064 | Listen failure: Couldn't listen on 127.0.0.1:8000: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted.
+[INFO] 2026-03-31 12:07:04 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:15244 Thread:7980 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 12:07:04 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:4824 Thread:3840 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 12:07:06 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:8240 Thread:15684 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 12:07:06 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:14776 Thread:4432 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 12:07:07 | daphne.server | server.py:run:120 | Process:8240 Thread:7104 | HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[INFO] 2026-03-31 12:07:07 | daphne.server | server.py:run:129 | Process:8240 Thread:7104 | Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[INFO] 2026-03-31 12:07:07 | daphne.server | server.py:listen_success:160 | Process:8240 Thread:7104 | Listening on TCP address 127.0.0.1:8000
+[INFO] 2026-03-31 12:07:07 | daphne.server | server.py:run:120 | Process:14776 Thread:14644 | HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[INFO] 2026-03-31 12:07:07 | daphne.server | server.py:run:129 | Process:14776 Thread:14644 | Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[CRITICAL] 2026-03-31 12:07:07 | daphne.server | server.py:listen_error:167 | Process:14776 Thread:14644 | Listen failure: Couldn't listen on 127.0.0.1:8000: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted.
+[INFO] 2026-03-31 12:07:14 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:14776 Thread:4432 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 12:07:14 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:8240 Thread:15684 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 12:07:17 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:13760 Thread:5868 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 12:07:17 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:5328 Thread:5644 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 12:07:17 | daphne.server | server.py:run:120 | Process:5328 Thread:11508 | HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[INFO] 2026-03-31 12:07:17 | daphne.server | server.py:run:120 | Process:13760 Thread:17264 | HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[INFO] 2026-03-31 12:07:17 | daphne.server | server.py:run:129 | Process:5328 Thread:11508 | Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[INFO] 2026-03-31 12:07:17 | daphne.server | server.py:run:129 | Process:13760 Thread:17264 | Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[INFO] 2026-03-31 12:07:17 | daphne.server | server.py:listen_success:160 | Process:5328 Thread:11508 | Listening on TCP address 127.0.0.1:8000
+[CRITICAL] 2026-03-31 12:07:17 | daphne.server | server.py:listen_error:167 | Process:13760 Thread:17264 | Listen failure: Couldn't listen on 127.0.0.1:8000: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted.
+[INFO] 2026-03-31 12:08:51 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:13760 Thread:5868 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 12:08:51 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:5328 Thread:5644 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 12:08:53 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:5288 Thread:9920 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 12:08:53 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:15568 Thread:2592 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 12:08:54 | daphne.server | server.py:run:120 | Process:15568 Thread:15316 | HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[INFO] 2026-03-31 12:08:54 | daphne.server | server.py:run:129 | Process:15568 Thread:15316 | Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[INFO] 2026-03-31 12:08:54 | daphne.server | server.py:listen_success:160 | Process:15568 Thread:15316 | Listening on TCP address 127.0.0.1:8000
+[INFO] 2026-03-31 12:08:54 | daphne.server | server.py:run:120 | Process:5288 Thread:13480 | HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[INFO] 2026-03-31 12:08:54 | daphne.server | server.py:run:129 | Process:5288 Thread:13480 | Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[CRITICAL] 2026-03-31 12:08:54 | daphne.server | server.py:listen_error:167 | Process:5288 Thread:13480 | Listen failure: Couldn't listen on 127.0.0.1:8000: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted.
+[INFO] 2026-03-31 12:08:57 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:5288 Thread:9920 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 12:08:57 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:15568 Thread:2592 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 12:08:59 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:8104 Thread:14284 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 12:08:59 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:6924 Thread:6448 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 12:09:00 | daphne.server | server.py:run:120 | Process:8104 Thread:14344 | HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[INFO] 2026-03-31 12:09:00 | daphne.server | server.py:run:129 | Process:8104 Thread:14344 | Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[INFO] 2026-03-31 12:09:00 | daphne.server | server.py:listen_success:160 | Process:8104 Thread:14344 | Listening on TCP address 127.0.0.1:8000
+[INFO] 2026-03-31 12:09:00 | daphne.server | server.py:run:120 | Process:6924 Thread:9720 | HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[INFO] 2026-03-31 12:09:00 | daphne.server | server.py:run:129 | Process:6924 Thread:9720 | Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[CRITICAL] 2026-03-31 12:09:00 | daphne.server | server.py:listen_error:167 | Process:6924 Thread:9720 | Listen failure: Couldn't listen on 127.0.0.1:8000: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted.
+[INFO] 2026-03-31 12:09:03 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:8104 Thread:14284 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 12:09:03 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:6924 Thread:6448 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 12:09:04 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:13896 Thread:12952 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 12:09:04 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:12064 Thread:2624 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 12:09:05 | daphne.server | server.py:run:120 | Process:13896 Thread:3836 | HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[INFO] 2026-03-31 12:09:05 | daphne.server | server.py:run:129 | Process:13896 Thread:3836 | Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[INFO] 2026-03-31 12:09:05 | daphne.server | server.py:listen_success:160 | Process:13896 Thread:3836 | Listening on TCP address 127.0.0.1:8000
+[INFO] 2026-03-31 12:09:05 | daphne.server | server.py:run:120 | Process:12064 Thread:2868 | HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[INFO] 2026-03-31 12:09:05 | daphne.server | server.py:run:129 | Process:12064 Thread:2868 | Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[CRITICAL] 2026-03-31 12:09:05 | daphne.server | server.py:listen_error:167 | Process:12064 Thread:2868 | Listen failure: Couldn't listen on 127.0.0.1:8000: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted.
+[INFO] 2026-03-31 12:09:17 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:12064 Thread:2624 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 12:09:17 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:13896 Thread:12952 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 12:09:19 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:14240 Thread:9280 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 12:09:19 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:4200 Thread:14488 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 12:09:20 | daphne.server | server.py:run:120 | Process:14240 Thread:12620 | HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[INFO] 2026-03-31 12:09:20 | daphne.server | server.py:run:129 | Process:14240 Thread:12620 | Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[INFO] 2026-03-31 12:09:20 | daphne.server | server.py:run:120 | Process:4200 Thread:2120 | HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[INFO] 2026-03-31 12:09:20 | daphne.server | server.py:run:129 | Process:4200 Thread:2120 | Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[INFO] 2026-03-31 12:09:20 | daphne.server | server.py:listen_success:160 | Process:14240 Thread:12620 | Listening on TCP address 127.0.0.1:8000
+[CRITICAL] 2026-03-31 12:09:20 | daphne.server | server.py:listen_error:167 | Process:4200 Thread:2120 | Listen failure: Couldn't listen on 127.0.0.1:8000: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted.
+[INFO] 2026-03-31 12:09:27 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:14240 Thread:9280 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 12:09:27 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:4200 Thread:14488 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 12:09:29 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:6012 Thread:7924 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 12:09:29 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:11192 Thread:10080 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 12:09:30 | daphne.server | server.py:run:120 | Process:6012 Thread:4940 | HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[INFO] 2026-03-31 12:09:30 | daphne.server | server.py:run:129 | Process:6012 Thread:4940 | Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[INFO] 2026-03-31 12:09:30 | daphne.server | server.py:listen_success:160 | Process:6012 Thread:4940 | Listening on TCP address 127.0.0.1:8000
+[INFO] 2026-03-31 12:09:30 | daphne.server | server.py:run:120 | Process:11192 Thread:17036 | HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[INFO] 2026-03-31 12:09:30 | daphne.server | server.py:run:129 | Process:11192 Thread:17036 | Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[CRITICAL] 2026-03-31 12:09:30 | daphne.server | server.py:listen_error:167 | Process:11192 Thread:17036 | Listen failure: Couldn't listen on 127.0.0.1:8000: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted.
+[INFO] 2026-03-31 12:09:34 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:6012 Thread:7924 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 12:09:34 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:11192 Thread:10080 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 12:09:36 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:11152 Thread:9444 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 12:09:36 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:15180 Thread:11512 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 12:09:37 | daphne.server | server.py:run:120 | Process:11152 Thread:8568 | HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[INFO] 2026-03-31 12:09:37 | daphne.server | server.py:run:129 | Process:11152 Thread:8568 | Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[INFO] 2026-03-31 12:09:37 | daphne.server | server.py:listen_success:160 | Process:11152 Thread:8568 | Listening on TCP address 127.0.0.1:8000
+[INFO] 2026-03-31 12:09:37 | daphne.server | server.py:run:120 | Process:15180 Thread:16368 | HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[INFO] 2026-03-31 12:09:37 | daphne.server | server.py:run:129 | Process:15180 Thread:16368 | Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[CRITICAL] 2026-03-31 12:09:37 | daphne.server | server.py:listen_error:167 | Process:15180 Thread:16368 | Listen failure: Couldn't listen on 127.0.0.1:8000: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted.
+[INFO] 2026-03-31 12:09:39 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:11152 Thread:9444 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 12:09:39 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:15180 Thread:11512 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 12:09:41 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:3268 Thread:14932 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 12:09:41 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:14168 Thread:3480 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 12:09:41 | daphne.server | server.py:run:120 | Process:14168 Thread:9768 | HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[INFO] 2026-03-31 12:09:41 | daphne.server | server.py:run:120 | Process:3268 Thread:15152 | HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[INFO] 2026-03-31 12:09:41 | daphne.server | server.py:run:129 | Process:14168 Thread:9768 | Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[INFO] 2026-03-31 12:09:41 | daphne.server | server.py:run:129 | Process:3268 Thread:15152 | Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[INFO] 2026-03-31 12:09:41 | daphne.server | server.py:listen_success:160 | Process:14168 Thread:9768 | Listening on TCP address 127.0.0.1:8000
+[CRITICAL] 2026-03-31 12:09:41 | daphne.server | server.py:listen_error:167 | Process:3268 Thread:15152 | Listen failure: Couldn't listen on 127.0.0.1:8000: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted.
+[INFO] 2026-03-31 12:09:47 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:3268 Thread:14932 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 12:09:47 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:14168 Thread:3480 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 12:09:50 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:16020 Thread:10156 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 12:09:50 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:4808 Thread:17236 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 12:09:50 | daphne.server | server.py:run:120 | Process:16020 Thread:10000 | HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[INFO] 2026-03-31 12:09:50 | daphne.server | server.py:run:129 | Process:16020 Thread:10000 | Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[INFO] 2026-03-31 12:09:50 | daphne.server | server.py:listen_success:160 | Process:16020 Thread:10000 | Listening on TCP address 127.0.0.1:8000
+[INFO] 2026-03-31 12:09:50 | daphne.server | server.py:run:120 | Process:4808 Thread:12340 | HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[INFO] 2026-03-31 12:09:50 | daphne.server | server.py:run:129 | Process:4808 Thread:12340 | Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[CRITICAL] 2026-03-31 12:09:50 | daphne.server | server.py:listen_error:167 | Process:4808 Thread:12340 | Listen failure: Couldn't listen on 127.0.0.1:8000: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted.
+[INFO] 2026-03-31 12:10:09 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:4808 Thread:17236 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 12:10:09 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:16020 Thread:10156 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 12:10:11 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:16952 Thread:16652 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 12:10:11 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:2696 Thread:11824 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 12:10:12 | daphne.server | server.py:run:120 | Process:2696 Thread:15500 | HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[INFO] 2026-03-31 12:10:12 | daphne.server | server.py:run:129 | Process:2696 Thread:15500 | Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[INFO] 2026-03-31 12:10:12 | daphne.server | server.py:listen_success:160 | Process:2696 Thread:15500 | Listening on TCP address 127.0.0.1:8000
+[INFO] 2026-03-31 12:10:12 | daphne.server | server.py:run:120 | Process:16952 Thread:5900 | HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[INFO] 2026-03-31 12:10:12 | daphne.server | server.py:run:129 | Process:16952 Thread:5900 | Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[CRITICAL] 2026-03-31 12:10:12 | daphne.server | server.py:listen_error:167 | Process:16952 Thread:5900 | Listen failure: Couldn't listen on 127.0.0.1:8000: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted.
+[INFO] 2026-03-31 12:10:24 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:2696 Thread:11824 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 12:10:24 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:16952 Thread:16652 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 12:10:26 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:8068 Thread:16184 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 12:10:26 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:11304 Thread:1004 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 12:10:27 | daphne.server | server.py:run:120 | Process:11304 Thread:15536 | HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[INFO] 2026-03-31 12:10:27 | daphne.server | server.py:run:129 | Process:11304 Thread:15536 | Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[INFO] 2026-03-31 12:10:27 | daphne.server | server.py:listen_success:160 | Process:11304 Thread:15536 | Listening on TCP address 127.0.0.1:8000
+[INFO] 2026-03-31 12:10:27 | daphne.server | server.py:run:120 | Process:8068 Thread:10304 | HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[INFO] 2026-03-31 12:10:27 | daphne.server | server.py:run:129 | Process:8068 Thread:10304 | Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[CRITICAL] 2026-03-31 12:10:27 | daphne.server | server.py:listen_error:167 | Process:8068 Thread:10304 | Listen failure: Couldn't listen on 127.0.0.1:8000: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted.
+[INFO] 2026-03-31 12:10:34 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:8068 Thread:16184 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 12:10:34 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:11304 Thread:1004 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 12:10:36 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:12920 Thread:7472 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 12:10:36 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:16368 Thread:5412 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 12:10:36 | daphne.server | server.py:run:120 | Process:12920 Thread:16720 | HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[INFO] 2026-03-31 12:10:36 | daphne.server | server.py:run:129 | Process:12920 Thread:16720 | Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[INFO] 2026-03-31 12:10:36 | daphne.server | server.py:listen_success:160 | Process:12920 Thread:16720 | Listening on TCP address 127.0.0.1:8000
+[INFO] 2026-03-31 12:10:36 | daphne.server | server.py:run:120 | Process:16368 Thread:9300 | HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[INFO] 2026-03-31 12:10:36 | daphne.server | server.py:run:129 | Process:16368 Thread:9300 | Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[CRITICAL] 2026-03-31 12:10:36 | daphne.server | server.py:listen_error:167 | Process:16368 Thread:9300 | Listen failure: Couldn't listen on 127.0.0.1:8000: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted.
+[INFO] 2026-03-31 12:10:38 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:12920 Thread:7472 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 12:10:38 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:16368 Thread:5412 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 12:10:40 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:8196 Thread:3136 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 12:10:40 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:4852 Thread:328 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 12:10:41 | daphne.server | server.py:run:120 | Process:4852 Thread:7972 | HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[INFO] 2026-03-31 12:10:41 | daphne.server | server.py:run:129 | Process:4852 Thread:7972 | Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[INFO] 2026-03-31 12:10:41 | daphne.server | server.py:run:120 | Process:8196 Thread:10280 | HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[INFO] 2026-03-31 12:10:41 | daphne.server | server.py:run:129 | Process:8196 Thread:10280 | Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[INFO] 2026-03-31 12:10:41 | daphne.server | server.py:listen_success:160 | Process:4852 Thread:7972 | Listening on TCP address 127.0.0.1:8000
+[CRITICAL] 2026-03-31 12:10:41 | daphne.server | server.py:listen_error:167 | Process:8196 Thread:10280 | Listen failure: Couldn't listen on 127.0.0.1:8000: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted.
+[INFO] 2026-03-31 12:10:47 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:4852 Thread:328 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 12:10:47 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:8196 Thread:3136 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 12:10:49 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:6376 Thread:15680 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 12:10:49 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:4332 Thread:4896 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 12:10:50 | daphne.server | server.py:run:120 | Process:6376 Thread:3788 | HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[INFO] 2026-03-31 12:10:50 | daphne.server | server.py:run:129 | Process:6376 Thread:3788 | Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[INFO] 2026-03-31 12:10:50 | daphne.server | server.py:listen_success:160 | Process:6376 Thread:3788 | Listening on TCP address 127.0.0.1:8000
+[INFO] 2026-03-31 12:10:50 | daphne.server | server.py:run:120 | Process:4332 Thread:12316 | HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[INFO] 2026-03-31 12:10:50 | daphne.server | server.py:run:129 | Process:4332 Thread:12316 | Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[CRITICAL] 2026-03-31 12:10:50 | daphne.server | server.py:listen_error:167 | Process:4332 Thread:12316 | Listen failure: Couldn't listen on 127.0.0.1:8000: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted.
+[INFO] 2026-03-31 12:10:58 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:4332 Thread:4896 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 12:10:58 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:6376 Thread:15680 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 12:11:00 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:15708 Thread:15660 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 12:11:00 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:5896 Thread:13208 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 12:11:01 | daphne.server | server.py:run:120 | Process:5896 Thread:12248 | HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[INFO] 2026-03-31 12:11:01 | daphne.server | server.py:run:129 | Process:5896 Thread:12248 | Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[INFO] 2026-03-31 12:11:01 | daphne.server | server.py:listen_success:160 | Process:5896 Thread:12248 | Listening on TCP address 127.0.0.1:8000
+[INFO] 2026-03-31 12:11:01 | daphne.server | server.py:run:120 | Process:15708 Thread:15380 | HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[INFO] 2026-03-31 12:11:01 | daphne.server | server.py:run:129 | Process:15708 Thread:15380 | Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[CRITICAL] 2026-03-31 12:11:01 | daphne.server | server.py:listen_error:167 | Process:15708 Thread:15380 | Listen failure: Couldn't listen on 127.0.0.1:8000: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted.
+[INFO] 2026-03-31 12:11:05 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:5896 Thread:13208 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 12:11:05 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:15708 Thread:15660 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 12:11:07 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:6384 Thread:8484 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 12:11:07 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:8800 Thread:16052 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 12:11:08 | daphne.server | server.py:run:120 | Process:6384 Thread:8844 | HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[INFO] 2026-03-31 12:11:08 | daphne.server | server.py:run:129 | Process:6384 Thread:8844 | Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[INFO] 2026-03-31 12:11:08 | daphne.server | server.py:listen_success:160 | Process:6384 Thread:8844 | Listening on TCP address 127.0.0.1:8000
+[INFO] 2026-03-31 12:11:08 | daphne.server | server.py:run:120 | Process:8800 Thread:12388 | HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[INFO] 2026-03-31 12:11:08 | daphne.server | server.py:run:129 | Process:8800 Thread:12388 | Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[CRITICAL] 2026-03-31 12:11:08 | daphne.server | server.py:listen_error:167 | Process:8800 Thread:12388 | Listen failure: Couldn't listen on 127.0.0.1:8000: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted.
+[INFO] 2026-03-31 12:11:09 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:6384 Thread:8484 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 12:11:09 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:8800 Thread:16052 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 12:11:12 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:15932 Thread:14188 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 12:11:12 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:17376 Thread:16216 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 12:11:13 | daphne.server | server.py:run:120 | Process:15932 Thread:6336 | HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[INFO] 2026-03-31 12:11:13 | daphne.server | server.py:run:129 | Process:15932 Thread:6336 | Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[INFO] 2026-03-31 12:11:13 | daphne.server | server.py:listen_success:160 | Process:15932 Thread:6336 | Listening on TCP address 127.0.0.1:8000
+[INFO] 2026-03-31 12:11:13 | daphne.server | server.py:run:120 | Process:17376 Thread:14860 | HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[INFO] 2026-03-31 12:11:13 | daphne.server | server.py:run:129 | Process:17376 Thread:14860 | Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[CRITICAL] 2026-03-31 12:11:13 | daphne.server | server.py:listen_error:167 | Process:17376 Thread:14860 | Listen failure: Couldn't listen on 127.0.0.1:8000: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted.
+[INFO] 2026-03-31 12:12:29 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:17376 Thread:16216 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 12:12:29 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:15932 Thread:14188 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 12:12:31 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:9316 Thread:16532 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 12:12:31 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:6828 Thread:12320 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 12:12:33 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:9316 Thread:16532 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 12:12:33 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:6828 Thread:12320 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 12:12:35 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:15588 Thread:13340 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 12:12:35 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:7492 Thread:2544 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 12:12:42 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:7492 Thread:2544 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 12:12:42 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:15588 Thread:13340 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 12:12:44 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:3996 Thread:4676 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 12:12:44 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:13044 Thread:324 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 12:20:55 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:3996 Thread:4676 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 12:20:55 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:13044 Thread:324 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 12:20:57 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:5208 Thread:1252 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 12:20:57 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:1776 Thread:11304 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 12:20:58 | daphne.server | server.py:run:120 | Process:5208 Thread:16720 | HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[INFO] 2026-03-31 12:20:58 | daphne.server | server.py:run:129 | Process:5208 Thread:16720 | Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[INFO] 2026-03-31 12:20:58 | daphne.server | server.py:listen_success:160 | Process:5208 Thread:16720 | Listening on TCP address 127.0.0.1:8000
+[INFO] 2026-03-31 12:20:58 | daphne.server | server.py:run:120 | Process:1776 Thread:11200 | HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[INFO] 2026-03-31 12:20:58 | daphne.server | server.py:run:129 | Process:1776 Thread:11200 | Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[CRITICAL] 2026-03-31 12:20:58 | daphne.server | server.py:listen_error:167 | Process:1776 Thread:11200 | Listen failure: Couldn't listen on 127.0.0.1:8000: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted.
+[ERROR] 2026-03-31 12:22:36 | django.request | log.py:log_response:253 | Process:5208 Thread:14372 | Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "C:\Users\HomePC\Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HomePC\Django\project_two\users\middleware.py", line 25, in __call__
+    return response
+           ^^^^^^^^
+UnboundLocalError: cannot access local variable 'response' where it is not associated with a value
+[ERROR] 2026-03-31 12:22:36 | django.channels.server | runserver.py:log_action:194 | Process:5208 Thread:16720 | [35;1mHTTP GET /admin/ 500 [0.13, 127.0.0.1:55886][0m
+[ERROR] 2026-03-31 12:22:37 | django.request | log.py:log_response:253 | Process:5208 Thread:8572 | Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\HomePC\Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HomePC\Django\project_two\users\middleware.py", line 25, in __call__
+    return response
+           ^^^^^^^^
+UnboundLocalError: cannot access local variable 'response' where it is not associated with a value
+[ERROR] 2026-03-31 12:22:37 | django.channels.server | runserver.py:log_action:194 | Process:5208 Thread:16720 | [35;1mHTTP GET /favicon.ico 500 [0.04, 127.0.0.1:55886][0m
+[INFO] 2026-03-31 12:32:03 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:5208 Thread:1252 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 12:32:03 | django.utils.autoreload | autoreload.py:trigger_reload:265 | Process:1776 Thread:11304 | C:\Users\HomePC\Django\project_two\users\middleware.py changed, reloading.
+[INFO] 2026-03-31 12:32:05 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:9580 Thread:17252 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 12:32:05 | django.utils.autoreload | autoreload.py:run_with_reloader:667 | Process:6688 Thread:6424 | Watching for file changes with StatReloader
+[INFO] 2026-03-31 12:32:05 | daphne.server | server.py:run:120 | Process:9580 Thread:16528 | HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[INFO] 2026-03-31 12:32:05 | daphne.server | server.py:run:129 | Process:9580 Thread:16528 | Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[INFO] 2026-03-31 12:32:05 | daphne.server | server.py:listen_success:160 | Process:9580 Thread:16528 | Listening on TCP address 127.0.0.1:8000
+[INFO] 2026-03-31 12:32:05 | daphne.server | server.py:run:120 | Process:6688 Thread:15272 | HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[INFO] 2026-03-31 12:32:05 | daphne.server | server.py:run:129 | Process:6688 Thread:15272 | Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[CRITICAL] 2026-03-31 12:32:05 | daphne.server | server.py:listen_error:167 | Process:6688 Thread:15272 | Listen failure: Couldn't listen on 127.0.0.1:8000: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted.
+[INFO] 2026-03-31 12:33:11 | django.channels.server | runserver.py:log_action:187 | Process:9580 Thread:16528 | [32mHTTP GET /admin/ 302 [0.09, 127.0.0.1:51950][0m
+[INFO] 2026-03-31 12:33:11 | django.channels.server | runserver.py:log_action:181 | Process:9580 Thread:16528 | [mHTTP GET /admin/login/?next=/admin/ 200 [0.36, 127.0.0.1:51950][0m
+[INFO] 2026-03-31 12:33:11 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/base.css 304 [0.01, 127.0.0.1:51950][0m
+[INFO] 2026-03-31 12:33:11 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/dark_mode.css 304 [0.02, 127.0.0.1:53558][0m
+[INFO] 2026-03-31 12:33:11 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/login.css 304 [0.02, 127.0.0.1:50266][0m
+[INFO] 2026-03-31 12:33:11 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/theme.js 304 [0.02, 127.0.0.1:60665][0m
+[INFO] 2026-03-31 12:33:11 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/responsive.css 304 [0.01, 127.0.0.1:61554][0m
+[INFO] 2026-03-31 12:33:11 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/nav_sidebar.css 304 [0.02, 127.0.0.1:54784][0m
+[INFO] 2026-03-31 12:33:11 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/nav_sidebar.js 304 [0.01, 127.0.0.1:61554][0m
+[WARNING] 2026-03-31 12:33:11 | django.request | log.py:log_response:253 | Process:9580 Thread:8564 | Not Found: /favicon.ico
+[WARNING] 2026-03-31 12:33:11 | django.channels.server | runserver.py:log_action:189 | Process:9580 Thread:16528 | [33mHTTP GET /favicon.ico 404 [0.06, 127.0.0.1:61554][0m
+[INFO] 2026-03-31 12:40:26 | django.channels.server | runserver.py:log_action:181 | Process:9580 Thread:16528 | [mHTTP POST /admin/login/?next=/admin/ 200 [2.26, 127.0.0.1:56116][0m
+[INFO] 2026-03-31 12:40:26 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/base.css 304 [0.01, 127.0.0.1:56116][0m
+[INFO] 2026-03-31 12:40:26 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/dark_mode.css 304 [0.02, 127.0.0.1:53488][0m
+[INFO] 2026-03-31 12:40:26 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/nav_sidebar.css 304 [0.02, 127.0.0.1:53799][0m
+[INFO] 2026-03-31 12:40:26 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/login.css 304 [0.02, 127.0.0.1:55354][0m
+[INFO] 2026-03-31 12:40:26 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/responsive.css 304 [0.02, 127.0.0.1:49820][0m
+[INFO] 2026-03-31 12:40:26 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/theme.js 304 [0.02, 127.0.0.1:55430][0m
+[INFO] 2026-03-31 12:40:26 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/nav_sidebar.js 304 [0.00, 127.0.0.1:55430][0m
+[INFO] 2026-03-31 12:43:08 | django.channels.server | runserver.py:log_action:181 | Process:9580 Thread:16528 | [mHTTP POST /admin/login/?next=/admin/ 200 [2.20, 127.0.0.1:57221][0m
+[INFO] 2026-03-31 12:43:08 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/base.css 304 [0.00, 127.0.0.1:57221][0m
+[INFO] 2026-03-31 12:43:08 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/login.css 304 [0.01, 127.0.0.1:56349][0m
+[INFO] 2026-03-31 12:43:08 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/theme.js 304 [0.01, 127.0.0.1:62119][0m
+[INFO] 2026-03-31 12:43:08 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/nav_sidebar.css 304 [0.02, 127.0.0.1:62136][0m
+[INFO] 2026-03-31 12:43:08 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/dark_mode.css 304 [0.02, 127.0.0.1:64912][0m
+[INFO] 2026-03-31 12:43:08 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/responsive.css 304 [0.02, 127.0.0.1:57221][0m
+[INFO] 2026-03-31 12:43:08 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/nav_sidebar.js 304 [0.00, 127.0.0.1:57221][0m
+[INFO] 2026-03-31 12:53:28 | django.channels.server | runserver.py:log_action:181 | Process:9580 Thread:16528 | [mHTTP POST /admin/login/?next=/admin/ 200 [2.22, 127.0.0.1:50596][0m
+[INFO] 2026-03-31 12:53:28 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/base.css 304 [0.01, 127.0.0.1:50596][0m
+[INFO] 2026-03-31 12:53:28 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/dark_mode.css 304 [0.01, 127.0.0.1:63442][0m
+[INFO] 2026-03-31 12:53:28 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/nav_sidebar.css 304 [0.01, 127.0.0.1:51375][0m
+[INFO] 2026-03-31 12:53:28 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/theme.js 304 [0.01, 127.0.0.1:58221][0m
+[INFO] 2026-03-31 12:53:28 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/responsive.css 304 [0.01, 127.0.0.1:55549][0m
+[INFO] 2026-03-31 12:53:28 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/login.css 304 [0.01, 127.0.0.1:49820][0m
+[INFO] 2026-03-31 12:53:28 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/nav_sidebar.js 304 [0.00, 127.0.0.1:49820][0m
+[INFO] 2026-03-31 12:55:22 | django.channels.server | runserver.py:log_action:181 | Process:9580 Thread:16528 | [mHTTP POST /admin/login/?next=/admin/ 200 [2.17, 127.0.0.1:62010][0m
+[INFO] 2026-03-31 12:55:22 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/base.css 304 [0.01, 127.0.0.1:62010][0m
+[INFO] 2026-03-31 12:55:22 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/dark_mode.css 304 [0.01, 127.0.0.1:62010][0m
+[INFO] 2026-03-31 12:55:22 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/nav_sidebar.css 304 [0.01, 127.0.0.1:65391][0m
+[INFO] 2026-03-31 12:55:22 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/theme.js 304 [0.01, 127.0.0.1:56796][0m
+[INFO] 2026-03-31 12:55:22 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/login.css 304 [0.01, 127.0.0.1:50952][0m
+[INFO] 2026-03-31 12:55:22 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/responsive.css 304 [0.01, 127.0.0.1:59434][0m
+[INFO] 2026-03-31 12:55:22 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/nav_sidebar.js 304 [0.00, 127.0.0.1:59434][0m
+[INFO] 2026-03-31 13:19:20 | django.channels.server | runserver.py:log_action:187 | Process:9580 Thread:16528 | [32mHTTP POST /admin/login/?next=/admin/ 302 [2.29, 127.0.0.1:62230][0m
+[INFO] 2026-03-31 13:19:20 | django.channels.server | runserver.py:log_action:181 | Process:9580 Thread:16528 | [mHTTP GET /admin/ 200 [0.22, 127.0.0.1:62230][0m
+[INFO] 2026-03-31 13:19:20 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/base.css 304 [0.01, 127.0.0.1:62230][0m
+[INFO] 2026-03-31 13:19:20 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/dark_mode.css 304 [0.01, 127.0.0.1:62687][0m
+[INFO] 2026-03-31 13:19:20 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/nav_sidebar.css 304 [0.01, 127.0.0.1:54662][0m
+[INFO] 2026-03-31 13:19:20 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/theme.js 304 [0.01, 127.0.0.1:52810][0m
+[INFO] 2026-03-31 13:19:20 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/responsive.css 304 [0.01, 127.0.0.1:62231][0m
+[INFO] 2026-03-31 13:19:20 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/dashboard.css 304 [0.02, 127.0.0.1:60065][0m
+[INFO] 2026-03-31 13:19:20 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/nav_sidebar.js 304 [0.00, 127.0.0.1:62231][0m
+[INFO] 2026-03-31 13:19:20 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/img/icon-changelink.svg 304 [0.00, 127.0.0.1:52810][0m
+[INFO] 2026-03-31 13:19:20 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/img/icon-addlink.svg 304 [0.01, 127.0.0.1:60065][0m
+[INFO] 2026-03-31 13:20:36 | django.channels.server | runserver.py:log_action:181 | Process:9580 Thread:16528 | [mHTTP POST /admin/logout/ 200 [0.16, 127.0.0.1:55938][0m
+[INFO] 2026-03-31 13:20:36 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/base.css 304 [0.00, 127.0.0.1:55938][0m
+[INFO] 2026-03-31 13:20:36 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/dark_mode.css 304 [0.01, 127.0.0.1:55938][0m
+[INFO] 2026-03-31 13:20:36 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/theme.js 304 [0.01, 127.0.0.1:59750][0m
+[INFO] 2026-03-31 13:20:36 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/responsive.css 304 [0.01, 127.0.0.1:63525][0m
+[INFO] 2026-03-31 13:20:36 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/nav_sidebar.css 304 [0.01, 127.0.0.1:59379][0m
+[INFO] 2026-03-31 13:20:36 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/nav_sidebar.js 304 [0.00, 127.0.0.1:59379][0m
+[INFO] 2026-03-31 13:30:34 | django.channels.server | runserver.py:log_action:187 | Process:9580 Thread:16528 | [32mHTTP GET /admin/ 302 [0.01, 127.0.0.1:51068][0m
+[INFO] 2026-03-31 13:30:34 | django.channels.server | runserver.py:log_action:181 | Process:9580 Thread:16528 | [mHTTP GET /admin/login/?next=/admin/ 200 [0.02, 127.0.0.1:51068][0m
+[INFO] 2026-03-31 13:30:34 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/base.css 304 [0.00, 127.0.0.1:51068][0m
+[INFO] 2026-03-31 13:30:34 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/dark_mode.css 304 [0.03, 127.0.0.1:58199][0m
+[INFO] 2026-03-31 13:30:34 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/nav_sidebar.css 304 [0.03, 127.0.0.1:51713][0m
+[INFO] 2026-03-31 13:30:34 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/theme.js 304 [0.01, 127.0.0.1:51068][0m
+[INFO] 2026-03-31 13:30:34 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/responsive.css 304 [0.03, 127.0.0.1:64656][0m
+[INFO] 2026-03-31 13:30:34 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/login.css 304 [0.02, 127.0.0.1:63962][0m
+[INFO] 2026-03-31 13:30:34 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/nav_sidebar.js 304 [0.00, 127.0.0.1:63962][0m
+[INFO] 2026-03-31 13:30:38 | django.channels.server | runserver.py:log_action:187 | Process:9580 Thread:16528 | [32mHTTP POST /admin/login/?next=/admin/ 302 [2.31, 127.0.0.1:63962][0m
+[INFO] 2026-03-31 13:30:38 | django.channels.server | runserver.py:log_action:181 | Process:9580 Thread:16528 | [mHTTP GET /admin/ 200 [0.13, 127.0.0.1:63962][0m
+[INFO] 2026-03-31 13:30:39 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/base.css 304 [0.00, 127.0.0.1:63962][0m
+[INFO] 2026-03-31 13:30:39 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/dark_mode.css 304 [0.01, 127.0.0.1:63962][0m
+[INFO] 2026-03-31 13:30:39 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/theme.js 304 [0.01, 127.0.0.1:64656][0m
+[INFO] 2026-03-31 13:30:39 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/responsive.css 304 [0.01, 127.0.0.1:51713][0m
+[INFO] 2026-03-31 13:30:39 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/nav_sidebar.css 304 [0.01, 127.0.0.1:51068][0m
+[INFO] 2026-03-31 13:30:39 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/dashboard.css 304 [0.02, 127.0.0.1:58199][0m
+[INFO] 2026-03-31 13:30:39 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/nav_sidebar.js 304 [0.00, 127.0.0.1:58199][0m
+[INFO] 2026-03-31 13:30:51 | django.channels.server | runserver.py:log_action:181 | Process:9580 Thread:16528 | [mHTTP GET /admin/recipes/spoonacularcache/ 200 [0.35, 127.0.0.1:58199][0m
+[INFO] 2026-03-31 13:30:51 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/base.css 304 [0.01, 127.0.0.1:58199][0m
+[INFO] 2026-03-31 13:30:51 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/dark_mode.css 304 [0.02, 127.0.0.1:51068][0m
+[INFO] 2026-03-31 13:30:51 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/theme.js 304 [0.02, 127.0.0.1:63962][0m
+[INFO] 2026-03-31 13:30:51 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/nav_sidebar.css 304 [0.02, 127.0.0.1:51713][0m
+[INFO] 2026-03-31 13:30:51 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/changelists.css 304 [0.02, 127.0.0.1:64656][0m
+[INFO] 2026-03-31 13:30:51 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/responsive.css 304 [0.02, 127.0.0.1:58199][0m
+[INFO] 2026-03-31 13:30:51 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/vendor/jquery/jquery.js 304 [0.02, 127.0.0.1:51068][0m
+[INFO] 2026-03-31 13:30:51 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/core.js 304 [0.01, 127.0.0.1:63962][0m
+[INFO] 2026-03-31 13:30:51 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/jquery.init.js 304 [0.02, 127.0.0.1:51713][0m
+[INFO] 2026-03-31 13:30:51 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/admin/RelatedObjectLookups.js 304 [0.02, 127.0.0.1:64656][0m
+[INFO] 2026-03-31 13:30:51 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/actions.js 304 [0.01, 127.0.0.1:58199][0m
+[INFO] 2026-03-31 13:30:51 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/urlify.js 304 [0.01, 127.0.0.1:51068][0m
+[INFO] 2026-03-31 13:30:51 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/vendor/xregexp/xregexp.js 304 [0.01, 127.0.0.1:63962][0m
+[INFO] 2026-03-31 13:30:51 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/prepopulate.js 304 [0.01, 127.0.0.1:51713][0m
+[INFO] 2026-03-31 13:30:51 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/img/search.svg 304 [0.01, 127.0.0.1:64656][0m
+[INFO] 2026-03-31 13:30:51 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/nav_sidebar.js 304 [0.00, 127.0.0.1:64656][0m
+[INFO] 2026-03-31 13:30:52 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/filters.js 304 [0.00, 127.0.0.1:64656][0m
+[INFO] 2026-03-31 13:30:52 | django.channels.server | runserver.py:log_action:181 | Process:9580 Thread:16528 | [mHTTP GET /admin/jsi18n/ 200 [0.18, 127.0.0.1:51101][0m
+[INFO] 2026-03-31 13:30:52 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/img/icon-viewlink.svg 304 [0.00, 127.0.0.1:64656][0m
+[INFO] 2026-03-31 13:30:52 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/img/tooltag-add.svg 304 [0.01, 127.0.0.1:51101][0m
+[INFO] 2026-03-31 13:33:37 | django.channels.server | runserver.py:log_action:181 | Process:9580 Thread:16528 | [mHTTP GET /admin/recipes/spoonacularcache/?_facets=True 200 [0.12, 127.0.0.1:50779][0m
+[INFO] 2026-03-31 13:33:37 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/base.css 304 [0.00, 127.0.0.1:50779][0m
+[INFO] 2026-03-31 13:33:37 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/dark_mode.css 304 [0.01, 127.0.0.1:50779][0m
+[INFO] 2026-03-31 13:33:37 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/theme.js 304 [0.02, 127.0.0.1:53960][0m
+[INFO] 2026-03-31 13:33:37 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/nav_sidebar.css 304 [0.02, 127.0.0.1:56088][0m
+[INFO] 2026-03-31 13:33:37 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/changelists.css 304 [0.02, 127.0.0.1:51032][0m
+[INFO] 2026-03-31 13:33:37 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/vendor/jquery/jquery.js 304 [0.02, 127.0.0.1:62386][0m
+[INFO] 2026-03-31 13:33:37 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/responsive.css 304 [0.02, 127.0.0.1:50779][0m
+[INFO] 2026-03-31 13:33:37 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/jquery.init.js 304 [0.02, 127.0.0.1:53960][0m
+[INFO] 2026-03-31 13:33:37 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/core.js 304 [0.02, 127.0.0.1:56088][0m
+[INFO] 2026-03-31 13:33:37 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/admin/RelatedObjectLookups.js 304 [0.02, 127.0.0.1:51032][0m
+[INFO] 2026-03-31 13:33:37 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/actions.js 304 [0.01, 127.0.0.1:62386][0m
+[INFO] 2026-03-31 13:33:37 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/urlify.js 304 [0.01, 127.0.0.1:50779][0m
+[INFO] 2026-03-31 13:33:37 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/vendor/xregexp/xregexp.js 304 [0.01, 127.0.0.1:51032][0m
+[INFO] 2026-03-31 13:33:37 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/img/search.svg 304 [0.01, 127.0.0.1:62386][0m
+[INFO] 2026-03-31 13:33:37 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/prepopulate.js 304 [0.01, 127.0.0.1:53960][0m
+[INFO] 2026-03-31 13:33:37 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/nav_sidebar.js 304 [0.00, 127.0.0.1:53960][0m
+[INFO] 2026-03-31 13:33:37 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/filters.js 304 [0.00, 127.0.0.1:53960][0m
+[INFO] 2026-03-31 13:33:38 | django.channels.server | runserver.py:log_action:181 | Process:9580 Thread:16528 | [mHTTP GET /admin/jsi18n/ 200 [0.10, 127.0.0.1:57655][0m
+[INFO] 2026-03-31 13:33:38 | django.channels.server | runserver.py:log_action:181 | Process:9580 Thread:16528 | [mHTTP GET /static/admin/img/icon-hidelink.svg 200 [0.13, 127.0.0.1:57655][0m
+[INFO] 2026-03-31 13:33:44 | django.channels.server | runserver.py:log_action:181 | Process:9580 Thread:16528 | [mHTTP GET /admin/recipes/spoonacularcache/? 200 [0.11, 127.0.0.1:57655][0m
+[INFO] 2026-03-31 13:33:44 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/base.css 304 [0.00, 127.0.0.1:57655][0m
+[INFO] 2026-03-31 13:33:44 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/dark_mode.css 304 [0.02, 127.0.0.1:53960][0m
+[INFO] 2026-03-31 13:33:44 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/nav_sidebar.css 304 [0.02, 127.0.0.1:62386][0m
+[INFO] 2026-03-31 13:33:44 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/theme.js 304 [0.02, 127.0.0.1:51032][0m
+[INFO] 2026-03-31 13:33:44 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/vendor/jquery/jquery.js 304 [0.02, 127.0.0.1:56088][0m
+[INFO] 2026-03-31 13:33:44 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/changelists.css 304 [0.03, 127.0.0.1:50779][0m
+[INFO] 2026-03-31 13:33:44 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/core.js 304 [0.01, 127.0.0.1:62386][0m
+[INFO] 2026-03-31 13:33:44 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/responsive.css 304 [0.02, 127.0.0.1:53960][0m
+[INFO] 2026-03-31 13:33:44 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/jquery.init.js 304 [0.01, 127.0.0.1:56088][0m
+[INFO] 2026-03-31 13:33:44 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/admin/RelatedObjectLookups.js 304 [0.02, 127.0.0.1:51032][0m
+[INFO] 2026-03-31 13:33:44 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/actions.js 304 [0.01, 127.0.0.1:50779][0m
+[INFO] 2026-03-31 13:33:44 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/urlify.js 304 [0.01, 127.0.0.1:62386][0m
+[INFO] 2026-03-31 13:33:44 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/vendor/xregexp/xregexp.js 304 [0.01, 127.0.0.1:53960][0m
+[INFO] 2026-03-31 13:33:44 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/prepopulate.js 304 [0.02, 127.0.0.1:56088][0m
+[INFO] 2026-03-31 13:33:44 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/img/search.svg 304 [0.01, 127.0.0.1:51032][0m
+[INFO] 2026-03-31 13:33:44 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/nav_sidebar.js 304 [0.00, 127.0.0.1:51032][0m
+[INFO] 2026-03-31 13:33:44 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/filters.js 304 [0.00, 127.0.0.1:51032][0m
+[INFO] 2026-03-31 13:33:44 | django.channels.server | runserver.py:log_action:181 | Process:9580 Thread:16528 | [mHTTP GET /admin/jsi18n/ 200 [0.12, 127.0.0.1:57655][0m
+[INFO] 2026-03-31 13:33:50 | django.channels.server | runserver.py:log_action:181 | Process:9580 Thread:16528 | [mHTTP GET /admin/recipes/category/ 200 [0.12, 127.0.0.1:57655][0m
+[INFO] 2026-03-31 13:33:50 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/base.css 304 [0.00, 127.0.0.1:57655][0m
+[INFO] 2026-03-31 13:33:50 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/nav_sidebar.css 304 [0.02, 127.0.0.1:53960][0m
+[INFO] 2026-03-31 13:33:50 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/theme.js 304 [0.02, 127.0.0.1:51032][0m
+[INFO] 2026-03-31 13:33:50 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/vendor/jquery/jquery.js 304 [0.01, 127.0.0.1:50779][0m
+[INFO] 2026-03-31 13:33:50 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/dark_mode.css 304 [0.02, 127.0.0.1:57655][0m
+[INFO] 2026-03-31 13:33:50 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/changelists.css 304 [0.02, 127.0.0.1:56088][0m
+[INFO] 2026-03-31 13:33:50 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/admin/RelatedObjectLookups.js 304 [0.01, 127.0.0.1:57655][0m
+[INFO] 2026-03-31 13:33:50 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/responsive.css 304 [0.01, 127.0.0.1:51032][0m
+[INFO] 2026-03-31 13:33:50 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/jquery.init.js 304 [0.01, 127.0.0.1:50779][0m
+[INFO] 2026-03-31 13:33:50 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/actions.js 304 [0.01, 127.0.0.1:56088][0m
+[INFO] 2026-03-31 13:33:50 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/core.js 304 [0.01, 127.0.0.1:53960][0m
+[INFO] 2026-03-31 13:33:50 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/prepopulate.js 304 [0.01, 127.0.0.1:50779][0m
+[INFO] 2026-03-31 13:33:50 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/urlify.js 304 [0.01, 127.0.0.1:51032][0m
+[INFO] 2026-03-31 13:33:50 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/vendor/xregexp/xregexp.js 304 [0.01, 127.0.0.1:57655][0m
+[INFO] 2026-03-31 13:33:50 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/img/search.svg 304 [0.01, 127.0.0.1:53960][0m
+[INFO] 2026-03-31 13:33:50 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/nav_sidebar.js 304 [0.00, 127.0.0.1:57655][0m
+[INFO] 2026-03-31 13:33:50 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/filters.js 304 [0.00, 127.0.0.1:57655][0m
+[INFO] 2026-03-31 13:33:50 | django.channels.server | runserver.py:log_action:181 | Process:9580 Thread:16528 | [mHTTP GET /admin/jsi18n/ 200 [0.09, 127.0.0.1:62386][0m
+[INFO] 2026-03-31 13:33:58 | django.channels.server | runserver.py:log_action:181 | Process:9580 Thread:16528 | [mHTTP GET /admin/auth/group/add/ 200 [0.34, 127.0.0.1:62386][0m
+[INFO] 2026-03-31 13:33:58 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/base.css 304 [0.00, 127.0.0.1:62386][0m
+[INFO] 2026-03-31 13:33:58 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/dark_mode.css 304 [0.02, 127.0.0.1:62386][0m
+[INFO] 2026-03-31 13:33:58 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/forms.css 304 [0.02, 127.0.0.1:50779][0m
+[INFO] 2026-03-31 13:33:58 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/nav_sidebar.css 304 [0.02, 127.0.0.1:53960][0m
+[INFO] 2026-03-31 13:33:58 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/vendor/jquery/jquery.js 304 [0.02, 127.0.0.1:56088][0m
+[INFO] 2026-03-31 13:33:58 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/theme.js 304 [0.02, 127.0.0.1:57655][0m
+[INFO] 2026-03-31 13:33:58 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/responsive.css 304 [0.02, 127.0.0.1:62386][0m
+[INFO] 2026-03-31 13:33:58 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/admin/RelatedObjectLookups.js 304 [0.01, 127.0.0.1:57655][0m
+[INFO] 2026-03-31 13:33:58 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/jquery.init.js 304 [0.02, 127.0.0.1:50779][0m
+[INFO] 2026-03-31 13:33:58 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/core.js 304 [0.01, 127.0.0.1:56088][0m
+[INFO] 2026-03-31 13:33:58 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/widgets.css 304 [0.01, 127.0.0.1:62386][0m
+[INFO] 2026-03-31 13:33:58 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/actions.js 304 [0.01, 127.0.0.1:50779][0m
+[INFO] 2026-03-31 13:33:58 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/urlify.js 304 [0.01, 127.0.0.1:56088][0m
+[INFO] 2026-03-31 13:33:58 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/vendor/xregexp/xregexp.js 304 [0.01, 127.0.0.1:50779][0m
+[INFO] 2026-03-31 13:33:58 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/prepopulate.js 304 [0.01, 127.0.0.1:62386][0m
+[INFO] 2026-03-31 13:33:58 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/prepopulate_init.js 304 [0.01, 127.0.0.1:56088][0m
+[INFO] 2026-03-31 13:33:58 | django.channels.server | runserver.py:log_action:181 | Process:9580 Thread:16528 | [mHTTP GET /static/admin/js/SelectBox.js 200 [0.06, 127.0.0.1:53960][0m
+[INFO] 2026-03-31 13:33:58 | django.channels.server | runserver.py:log_action:181 | Process:9580 Thread:16528 | [mHTTP GET /static/admin/js/SelectFilter2.js 200 [0.06, 127.0.0.1:57655][0m
+[INFO] 2026-03-31 13:33:58 | django.channels.server | runserver.py:log_action:181 | Process:9580 Thread:16528 | [mHTTP GET /admin/jsi18n/ 200 [0.11, 127.0.0.1:51032][0m
+[INFO] 2026-03-31 13:33:58 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/nav_sidebar.js 304 [0.01, 127.0.0.1:57655][0m
+[INFO] 2026-03-31 13:33:58 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/change_form.js 304 [0.01, 127.0.0.1:51032][0m
+[INFO] 2026-03-31 13:33:58 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/img/search.svg 304 [0.01, 127.0.0.1:51032][0m
+[INFO] 2026-03-31 13:33:58 | django.channels.server | runserver.py:log_action:181 | Process:9580 Thread:16528 | [mHTTP GET /static/admin/img/selector-icons.svg 200 [0.04, 127.0.0.1:57655][0m
+[INFO] 2026-03-31 13:35:07 | django.channels.server | runserver.py:log_action:181 | Process:9580 Thread:16528 | [mHTTP POST /admin/auth/group/add/ 200 [0.13, 127.0.0.1:58436][0m
+[INFO] 2026-03-31 13:35:07 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/base.css 304 [0.01, 127.0.0.1:58436][0m
+[INFO] 2026-03-31 13:35:07 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/dark_mode.css 304 [0.01, 127.0.0.1:59927][0m
+[INFO] 2026-03-31 13:35:07 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/forms.css 304 [0.01, 127.0.0.1:59983][0m
+[INFO] 2026-03-31 13:35:07 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/nav_sidebar.css 304 [0.01, 127.0.0.1:53708][0m
+[INFO] 2026-03-31 13:35:07 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/theme.js 304 [0.01, 127.0.0.1:52129][0m
+[INFO] 2026-03-31 13:35:07 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/responsive.css 304 [0.02, 127.0.0.1:58436][0m
+[INFO] 2026-03-31 13:35:07 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/vendor/jquery/jquery.js 304 [0.01, 127.0.0.1:59927][0m
+[INFO] 2026-03-31 13:35:07 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/core.js 304 [0.01, 127.0.0.1:53708][0m
+[INFO] 2026-03-31 13:35:07 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/jquery.init.js 304 [0.01, 127.0.0.1:59983][0m
+[INFO] 2026-03-31 13:35:07 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/admin/RelatedObjectLookups.js 304 [0.01, 127.0.0.1:52129][0m
+[INFO] 2026-03-31 13:35:07 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/widgets.css 304 [0.01, 127.0.0.1:58436][0m
+[INFO] 2026-03-31 13:35:07 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/actions.js 304 [0.01, 127.0.0.1:59927][0m
+[INFO] 2026-03-31 13:35:07 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/urlify.js 304 [0.01, 127.0.0.1:59983][0m
+[INFO] 2026-03-31 13:35:07 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/prepopulate.js 304 [0.01, 127.0.0.1:53708][0m
+[INFO] 2026-03-31 13:35:07 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/vendor/xregexp/xregexp.js 304 [0.01, 127.0.0.1:52129][0m
+[INFO] 2026-03-31 13:35:07 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/prepopulate_init.js 304 [0.01, 127.0.0.1:58436][0m
+[INFO] 2026-03-31 13:35:07 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/nav_sidebar.js 304 [0.00, 127.0.0.1:58436][0m
+[INFO] 2026-03-31 13:35:07 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/change_form.js 304 [0.01, 127.0.0.1:58436][0m
+[INFO] 2026-03-31 13:35:07 | django.channels.server | runserver.py:log_action:181 | Process:9580 Thread:16528 | [mHTTP GET /admin/jsi18n/ 200 [0.09, 127.0.0.1:64254][0m
+[INFO] 2026-03-31 13:35:07 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/img/search.svg 304 [0.01, 127.0.0.1:64254][0m
+[INFO] 2026-03-31 13:35:17 | django.channels.server | runserver.py:log_action:181 | Process:9580 Thread:16528 | [mHTTP GET /admin/auth/group/add/ 200 [0.15, 127.0.0.1:64254][0m
+[INFO] 2026-03-31 13:35:17 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/base.css 304 [0.00, 127.0.0.1:64254][0m
+[INFO] 2026-03-31 13:35:18 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/nav_sidebar.css 304 [0.01, 127.0.0.1:52129][0m
+[INFO] 2026-03-31 13:35:18 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/forms.css 304 [0.01, 127.0.0.1:53708][0m
+[INFO] 2026-03-31 13:35:18 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/dark_mode.css 304 [0.02, 127.0.0.1:64254][0m
+[INFO] 2026-03-31 13:35:18 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/theme.js 304 [0.02, 127.0.0.1:58436][0m
+[INFO] 2026-03-31 13:35:18 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/vendor/jquery/jquery.js 304 [0.02, 127.0.0.1:59927][0m
+[INFO] 2026-03-31 13:35:18 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/responsive.css 304 [0.01, 127.0.0.1:53708][0m
+[INFO] 2026-03-31 13:35:18 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/jquery.init.js 304 [0.01, 127.0.0.1:52129][0m
+[INFO] 2026-03-31 13:35:18 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/admin/RelatedObjectLookups.js 304 [0.01, 127.0.0.1:58436][0m
+[INFO] 2026-03-31 13:35:18 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/core.js 304 [0.01, 127.0.0.1:64254][0m
+[INFO] 2026-03-31 13:35:18 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/actions.js 304 [0.01, 127.0.0.1:59927][0m
+[INFO] 2026-03-31 13:35:18 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/widgets.css 304 [0.02, 127.0.0.1:53708][0m
+[INFO] 2026-03-31 13:35:18 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/urlify.js 304 [0.02, 127.0.0.1:52129][0m
+[INFO] 2026-03-31 13:35:18 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/vendor/xregexp/xregexp.js 304 [0.01, 127.0.0.1:58436][0m
+[INFO] 2026-03-31 13:35:18 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/prepopulate_init.js 304 [0.01, 127.0.0.1:59927][0m
+[INFO] 2026-03-31 13:35:18 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/prepopulate.js 304 [0.02, 127.0.0.1:64254][0m
+[INFO] 2026-03-31 13:35:18 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/nav_sidebar.js 304 [0.00, 127.0.0.1:52129][0m
+[INFO] 2026-03-31 13:35:18 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/change_form.js 304 [0.00, 127.0.0.1:52129][0m
+[INFO] 2026-03-31 13:35:18 | django.channels.server | runserver.py:log_action:181 | Process:9580 Thread:16528 | [mHTTP GET /admin/jsi18n/ 200 [0.11, 127.0.0.1:59983][0m
+[INFO] 2026-03-31 13:35:18 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/img/search.svg 304 [0.00, 127.0.0.1:59983][0m
+[INFO] 2026-03-31 13:35:22 | django.channels.server | runserver.py:log_action:181 | Process:9580 Thread:16528 | [mHTTP GET /admin/auth/group/add/ 200 [0.14, 127.0.0.1:59983][0m
+[INFO] 2026-03-31 13:35:22 | django.channels.server | runserver.py:log_action:181 | Process:9580 Thread:16528 | [mHTTP GET /admin/recipes/category/ 200 [0.28, 127.0.0.1:59983][0m
+[INFO] 2026-03-31 13:35:40 | django.channels.server | runserver.py:log_action:181 | Process:9580 Thread:16528 | [mHTTP GET /admin/users/user/ 200 [0.35, 127.0.0.1:59983][0m
+[INFO] 2026-03-31 13:35:40 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/base.css 304 [0.02, 127.0.0.1:59983][0m
+[INFO] 2026-03-31 13:35:40 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/dark_mode.css 304 [0.01, 127.0.0.1:52129][0m
+[INFO] 2026-03-31 13:35:40 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/nav_sidebar.css 304 [0.01, 127.0.0.1:58436][0m
+[INFO] 2026-03-31 13:35:40 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/changelists.css 304 [0.01, 127.0.0.1:64254][0m
+[INFO] 2026-03-31 13:35:40 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/theme.js 304 [0.02, 127.0.0.1:59927][0m
+[INFO] 2026-03-31 13:35:40 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/jquery.init.js 304 [0.02, 127.0.0.1:64254][0m
+[INFO] 2026-03-31 13:35:40 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/core.js 304 [0.02, 127.0.0.1:58436][0m
+[INFO] 2026-03-31 13:35:40 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/admin/RelatedObjectLookups.js 304 [0.01, 127.0.0.1:59927][0m
+[INFO] 2026-03-31 13:35:40 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/responsive.css 304 [0.02, 127.0.0.1:59983][0m
+[INFO] 2026-03-31 13:35:40 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/vendor/jquery/jquery.js 304 [0.02, 127.0.0.1:52129][0m
+[INFO] 2026-03-31 13:35:40 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/urlify.js 304 [0.01, 127.0.0.1:58436][0m
+[INFO] 2026-03-31 13:35:40 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/prepopulate.js 304 [0.01, 127.0.0.1:59927][0m
+[INFO] 2026-03-31 13:35:40 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/actions.js 304 [0.01, 127.0.0.1:64254][0m
+[INFO] 2026-03-31 13:35:40 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/vendor/xregexp/xregexp.js 304 [0.01, 127.0.0.1:59983][0m
+[INFO] 2026-03-31 13:35:40 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/img/search.svg 304 [0.02, 127.0.0.1:52129][0m
+[INFO] 2026-03-31 13:35:40 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/img/icon-yes.svg 304 [0.01, 127.0.0.1:59927][0m
+[INFO] 2026-03-31 13:35:40 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/nav_sidebar.js 304 [0.00, 127.0.0.1:59927][0m
+[INFO] 2026-03-31 13:35:40 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/filters.js 304 [0.01, 127.0.0.1:59927][0m
+[INFO] 2026-03-31 13:35:40 | django.channels.server | runserver.py:log_action:181 | Process:9580 Thread:16528 | [mHTTP GET /admin/jsi18n/ 200 [0.11, 127.0.0.1:53708][0m
+[INFO] 2026-03-31 13:35:40 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/img/sorting-icons.svg 304 [0.01, 127.0.0.1:53708][0m
+[INFO] 2026-03-31 13:35:58 | django.channels.server | runserver.py:log_action:181 | Process:9580 Thread:16528 | [mHTTP GET /admin/users/user/?is_staff__exact=1 200 [0.28, 127.0.0.1:53708][0m
+[INFO] 2026-03-31 13:35:58 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/base.css 304 [0.02, 127.0.0.1:53708][0m
+[INFO] 2026-03-31 13:35:58 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/theme.js 304 [0.02, 127.0.0.1:52129][0m
+[INFO] 2026-03-31 13:35:58 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/changelists.css 304 [0.02, 127.0.0.1:64254][0m
+[INFO] 2026-03-31 13:35:58 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/dark_mode.css 304 [0.02, 127.0.0.1:59927][0m
+[INFO] 2026-03-31 13:35:58 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/nav_sidebar.css 304 [0.03, 127.0.0.1:58436][0m
+[INFO] 2026-03-31 13:35:58 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/core.js 304 [0.02, 127.0.0.1:59927][0m
+[INFO] 2026-03-31 13:35:58 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/responsive.css 304 [0.03, 127.0.0.1:64254][0m
+[INFO] 2026-03-31 13:35:58 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/vendor/jquery/jquery.js 304 [0.03, 127.0.0.1:53708][0m
+[INFO] 2026-03-31 13:35:58 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/admin/RelatedObjectLookups.js 304 [0.03, 127.0.0.1:58436][0m
+[INFO] 2026-03-31 13:35:58 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/jquery.init.js 304 [0.03, 127.0.0.1:52129][0m
+[INFO] 2026-03-31 13:35:58 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/vendor/xregexp/xregexp.js 304 [0.02, 127.0.0.1:58436][0m
+[INFO] 2026-03-31 13:35:58 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/prepopulate.js 304 [0.03, 127.0.0.1:53708][0m
+[INFO] 2026-03-31 13:35:58 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/urlify.js 304 [0.03, 127.0.0.1:59927][0m
+[INFO] 2026-03-31 13:35:58 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/actions.js 304 [0.03, 127.0.0.1:64254][0m
+[INFO] 2026-03-31 13:35:58 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/img/search.svg 304 [0.02, 127.0.0.1:52129][0m
+[INFO] 2026-03-31 13:35:58 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/img/icon-yes.svg 304 [0.01, 127.0.0.1:58436][0m
+[INFO] 2026-03-31 13:35:58 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/nav_sidebar.js 304 [0.00, 127.0.0.1:58436][0m
+[INFO] 2026-03-31 13:35:58 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/filters.js 304 [0.00, 127.0.0.1:58436][0m
+[INFO] 2026-03-31 13:35:58 | django.channels.server | runserver.py:log_action:181 | Process:9580 Thread:16528 | [mHTTP GET /admin/jsi18n/ 200 [0.15, 127.0.0.1:59983][0m
+[INFO] 2026-03-31 13:36:05 | django.channels.server | runserver.py:log_action:181 | Process:9580 Thread:16528 | [mHTTP GET /admin/users/user/? 200 [0.26, 127.0.0.1:59983][0m
+[INFO] 2026-03-31 13:36:05 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/base.css 304 [0.00, 127.0.0.1:59983][0m
+[INFO] 2026-03-31 13:36:05 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/dark_mode.css 304 [0.02, 127.0.0.1:59983][0m
+[INFO] 2026-03-31 13:36:05 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/theme.js 304 [0.02, 127.0.0.1:58436][0m
+[INFO] 2026-03-31 13:36:05 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/changelists.css 304 [0.02, 127.0.0.1:59927][0m
+[INFO] 2026-03-31 13:36:05 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/vendor/jquery/jquery.js 304 [0.02, 127.0.0.1:64254][0m
+[INFO] 2026-03-31 13:36:05 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/nav_sidebar.css 304 [0.02, 127.0.0.1:52129][0m
+[INFO] 2026-03-31 13:36:05 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/actions.js 304 [0.01, 127.0.0.1:52129][0m
+[INFO] 2026-03-31 13:36:05 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/responsive.css 304 [0.01, 127.0.0.1:59983][0m
+[INFO] 2026-03-31 13:36:05 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/jquery.init.js 304 [0.01, 127.0.0.1:64254][0m
+[INFO] 2026-03-31 13:36:05 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/core.js 304 [0.01, 127.0.0.1:58436][0m
+[INFO] 2026-03-31 13:36:05 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/admin/RelatedObjectLookups.js 304 [0.01, 127.0.0.1:59927][0m
+[INFO] 2026-03-31 13:36:05 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/prepopulate.js 304 [0.01, 127.0.0.1:58436][0m
+[INFO] 2026-03-31 13:36:05 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/urlify.js 304 [0.01, 127.0.0.1:64254][0m
+[INFO] 2026-03-31 13:36:05 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/vendor/xregexp/xregexp.js 304 [0.01, 127.0.0.1:59983][0m
+[INFO] 2026-03-31 13:36:05 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/img/icon-yes.svg 304 [0.01, 127.0.0.1:52129][0m
+[INFO] 2026-03-31 13:36:05 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/img/search.svg 304 [0.01, 127.0.0.1:59927][0m
+[INFO] 2026-03-31 13:36:05 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/nav_sidebar.js 304 [0.00, 127.0.0.1:59927][0m
+[INFO] 2026-03-31 13:36:05 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/filters.js 304 [0.00, 127.0.0.1:59927][0m
+[INFO] 2026-03-31 13:36:05 | django.channels.server | runserver.py:log_action:181 | Process:9580 Thread:16528 | [mHTTP GET /admin/jsi18n/ 200 [0.11, 127.0.0.1:53708][0m
+[INFO] 2026-03-31 13:36:20 | django.channels.server | runserver.py:log_action:181 | Process:9580 Thread:16528 | [mHTTP POST /admin/logout/ 200 [0.12, 127.0.0.1:53708][0m
+[INFO] 2026-03-31 13:36:20 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/base.css 304 [0.01, 127.0.0.1:53708][0m
+[INFO] 2026-03-31 13:36:20 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/dark_mode.css 304 [0.01, 127.0.0.1:59927][0m
+[INFO] 2026-03-31 13:36:20 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/responsive.css 304 [0.01, 127.0.0.1:58436][0m
+[INFO] 2026-03-31 13:36:20 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/theme.js 304 [0.01, 127.0.0.1:52129][0m
+[INFO] 2026-03-31 13:36:20 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/css/nav_sidebar.css 304 [0.02, 127.0.0.1:59983][0m
+[INFO] 2026-03-31 13:36:20 | django.channels.server | runserver.py:log_action:185 | Process:9580 Thread:16528 | [36mHTTP GET /static/admin/js/nav_sidebar.js 304 [0.00, 127.0.0.1:59983][0m

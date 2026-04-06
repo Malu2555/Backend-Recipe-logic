@@ -1,7 +1,9 @@
 from django.contrib import admin
+from .api.spoonacular_cachemodel import SpoonacularCache
 
 # Register your models here.
 from .models  import(
+    LocalRecipe,
     Recipe,
     Ingredient,
     RecipeIngredient,
@@ -11,6 +13,21 @@ from .models  import(
     Variation,
     Review,
     NutritionInfo,)
+
+@admin.register(SpoonacularCache)
+class SpoonacularCacheAdmin(admin.ModelAdmin):
+    #what columns to show in the list view
+    list_display=('recipe_id','is_stale_status')
+    #allow searching by RecipeID
+    search_fields=('recipe_id',)
+    #add a filter on the right sidebar
+    list_filter=('recipe_id',)
+    #Custom method to show a green/red light for staleness
+    def is_stale_status(self,obj):
+        return obj.is_stale()
+    is_stale_status.boolean=True
+    is_stale_status.short_description='Is Stale?'
+
 @admin.register(Recipe)
 class RecipeAdmin(admin.ModelAdmin):
     list_display = ('title', 'created_at', 'prep_time')

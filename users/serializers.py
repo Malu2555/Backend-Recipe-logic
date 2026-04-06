@@ -1,6 +1,6 @@
 from django.contrib.auth import get_user_model
 from rest_framework import serializers
-#serializers are the actual end user "forms" just like you did in admin.py for staff
+#serializers are the actual end user "input forms" just like you did in admin.py for staff
 User = get_user_model()
 #all of the serializers related to the User model
 #they validate and transform data for user-related operations
@@ -9,8 +9,8 @@ User = get_user_model()
 class UserSerializer(serializers.ModelSerializer):
     class Meta:
         model = User
-        fields = ("id", "email", "name", "is_staff","bio")
-        read_only_fields = ("id", "is_staff")
+        fields = ("id", "email", "name", "is_staff","bio","is_superuser")
+        read_only_fields = ("id", "is_staff","is_superuser")
 
 # user serializer for creating new users
 class UserCreateSerializer(serializers.ModelSerializer):# this is your user registration serializer
@@ -32,4 +32,4 @@ class UserCreateSerializer(serializers.ModelSerializer):# this is your user regi
 class PasswordSerializer(serializers.Serializer):
     new_password = serializers.CharField(min_length=8)
 #remember should handle user logins by using SimpleJWT tokens
-#your user serializer thus handles automatic user registration by end users,while admin.py handle manual
+#your user serializer thus handles automatic user registration by end users.

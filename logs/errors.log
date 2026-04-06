@@ -1,0 +1,95 @@
+[CRITICAL] 2026-03-31 11:44:50 | daphne.server | server.py:listen_error:167 | Process:1924 Thread:8184 | Listen failure: Couldn't listen on 127.0.0.1:8000: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted.
+[CRITICAL] 2026-03-31 11:45:55 | daphne.server | server.py:listen_error:167 | Process:16964 Thread:8692 | Listen failure: Couldn't listen on 127.0.0.1:8000: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted.
+[CRITICAL] 2026-03-31 11:46:18 | daphne.server | server.py:listen_error:167 | Process:6672 Thread:17088 | Listen failure: Couldn't listen on 127.0.0.1:8000: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted.
+[ERROR] 2026-03-31 11:48:26 | django.request | log.py:log_response:253 | Process:4232 Thread:15976 | Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "C:\Users\HomePC\Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HomePC\Django\.venv\Lib\site-packages\django\utils\deprecation.py", line 122, in __call__
+    response = self.process_response(request, response)
+  File "C:\Users\HomePC\Django\.venv\Lib\site-packages\django\middleware\common.py", line 107, in process_response
+    if response.status_code == 404 and self.should_redirect_with_slash(request):
+       ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'status_code'
+[ERROR] 2026-03-31 11:48:26 | django.channels.server | runserver.py:log_action:194 | Process:4232 Thread:15244 | [35;1mHTTP GET /admin/ 500 [0.42, 127.0.0.1:58289][0m
+[ERROR] 2026-03-31 11:48:26 | django.request | log.py:log_response:253 | Process:4232 Thread:12528 | Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\HomePC\Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HomePC\Django\.venv\Lib\site-packages\django\utils\deprecation.py", line 122, in __call__
+    response = self.process_response(request, response)
+  File "C:\Users\HomePC\Django\.venv\Lib\site-packages\django\middleware\common.py", line 107, in process_response
+    if response.status_code == 404 and self.should_redirect_with_slash(request):
+       ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'status_code'
+[ERROR] 2026-03-31 11:48:26 | django.channels.server | runserver.py:log_action:194 | Process:4232 Thread:15244 | [35;1mHTTP GET /favicon.ico 500 [0.05, 127.0.0.1:58289][0m
+[ERROR] 2026-03-31 11:48:30 | django.request | log.py:log_response:253 | Process:4232 Thread:1184 | Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "C:\Users\HomePC\Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HomePC\Django\.venv\Lib\site-packages\django\utils\deprecation.py", line 122, in __call__
+    response = self.process_response(request, response)
+  File "C:\Users\HomePC\Django\.venv\Lib\site-packages\django\middleware\common.py", line 107, in process_response
+    if response.status_code == 404 and self.should_redirect_with_slash(request):
+       ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'status_code'
+[ERROR] 2026-03-31 11:48:30 | django.channels.server | runserver.py:log_action:194 | Process:4232 Thread:15244 | [35;1mHTTP GET /admin/ 500 [0.05, 127.0.0.1:58289][0m
+[ERROR] 2026-03-31 11:48:30 | django.request | log.py:log_response:253 | Process:4232 Thread:15876 | Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\HomePC\Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HomePC\Django\.venv\Lib\site-packages\django\utils\deprecation.py", line 122, in __call__
+    response = self.process_response(request, response)
+  File "C:\Users\HomePC\Django\.venv\Lib\site-packages\django\middleware\common.py", line 107, in process_response
+    if response.status_code == 404 and self.should_redirect_with_slash(request):
+       ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'status_code'
+[ERROR] 2026-03-31 11:48:30 | django.channels.server | runserver.py:log_action:194 | Process:4232 Thread:15244 | [35;1mHTTP GET /favicon.ico 500 [0.04, 127.0.0.1:58289][0m
+[CRITICAL] 2026-03-31 12:02:48 | daphne.server | server.py:listen_error:167 | Process:3032 Thread:6880 | Listen failure: Couldn't listen on 127.0.0.1:8000: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted.
+[CRITICAL] 2026-03-31 12:02:53 | daphne.server | server.py:listen_error:167 | Process:12312 Thread:8368 | Listen failure: Couldn't listen on 127.0.0.1:8000: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted.
+[CRITICAL] 2026-03-31 12:06:03 | daphne.server | server.py:listen_error:167 | Process:6580 Thread:15708 | Listen failure: Couldn't listen on 127.0.0.1:8000: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted.
+[CRITICAL] 2026-03-31 12:06:25 | daphne.server | server.py:listen_error:167 | Process:8868 Thread:3172 | Listen failure: Couldn't listen on 127.0.0.1:8000: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted.
+[CRITICAL] 2026-03-31 12:06:30 | daphne.server | server.py:listen_error:167 | Process:7916 Thread:4948 | Listen failure: Couldn't listen on 127.0.0.1:8000: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted.
+[CRITICAL] 2026-03-31 12:06:35 | daphne.server | server.py:listen_error:167 | Process:16988 Thread:2628 | Listen failure: Couldn't listen on 127.0.0.1:8000: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted.
+[CRITICAL] 2026-03-31 12:06:41 | daphne.server | server.py:listen_error:167 | Process:8568 Thread:4808 | Listen failure: Couldn't listen on 127.0.0.1:8000: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted.
+[CRITICAL] 2026-03-31 12:06:46 | daphne.server | server.py:listen_error:167 | Process:2384 Thread:2592 | Listen failure: Couldn't listen on 127.0.0.1:8000: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted.
+[CRITICAL] 2026-03-31 12:06:53 | daphne.server | server.py:listen_error:167 | Process:10448 Thread:5756 | Listen failure: Couldn't listen on 127.0.0.1:8000: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted.
+[CRITICAL] 2026-03-31 12:07:03 | daphne.server | server.py:listen_error:167 | Process:4824 Thread:8064 | Listen failure: Couldn't listen on 127.0.0.1:8000: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted.
+[CRITICAL] 2026-03-31 12:07:07 | daphne.server | server.py:listen_error:167 | Process:14776 Thread:14644 | Listen failure: Couldn't listen on 127.0.0.1:8000: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted.
+[CRITICAL] 2026-03-31 12:07:17 | daphne.server | server.py:listen_error:167 | Process:13760 Thread:17264 | Listen failure: Couldn't listen on 127.0.0.1:8000: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted.
+[CRITICAL] 2026-03-31 12:08:54 | daphne.server | server.py:listen_error:167 | Process:5288 Thread:13480 | Listen failure: Couldn't listen on 127.0.0.1:8000: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted.
+[CRITICAL] 2026-03-31 12:09:00 | daphne.server | server.py:listen_error:167 | Process:6924 Thread:9720 | Listen failure: Couldn't listen on 127.0.0.1:8000: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted.
+[CRITICAL] 2026-03-31 12:09:05 | daphne.server | server.py:listen_error:167 | Process:12064 Thread:2868 | Listen failure: Couldn't listen on 127.0.0.1:8000: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted.
+[CRITICAL] 2026-03-31 12:09:20 | daphne.server | server.py:listen_error:167 | Process:4200 Thread:2120 | Listen failure: Couldn't listen on 127.0.0.1:8000: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted.
+[CRITICAL] 2026-03-31 12:09:30 | daphne.server | server.py:listen_error:167 | Process:11192 Thread:17036 | Listen failure: Couldn't listen on 127.0.0.1:8000: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted.
+[CRITICAL] 2026-03-31 12:09:37 | daphne.server | server.py:listen_error:167 | Process:15180 Thread:16368 | Listen failure: Couldn't listen on 127.0.0.1:8000: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted.
+[CRITICAL] 2026-03-31 12:09:41 | daphne.server | server.py:listen_error:167 | Process:3268 Thread:15152 | Listen failure: Couldn't listen on 127.0.0.1:8000: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted.
+[CRITICAL] 2026-03-31 12:09:50 | daphne.server | server.py:listen_error:167 | Process:4808 Thread:12340 | Listen failure: Couldn't listen on 127.0.0.1:8000: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted.
+[CRITICAL] 2026-03-31 12:10:12 | daphne.server | server.py:listen_error:167 | Process:16952 Thread:5900 | Listen failure: Couldn't listen on 127.0.0.1:8000: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted.
+[CRITICAL] 2026-03-31 12:10:27 | daphne.server | server.py:listen_error:167 | Process:8068 Thread:10304 | Listen failure: Couldn't listen on 127.0.0.1:8000: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted.
+[CRITICAL] 2026-03-31 12:10:36 | daphne.server | server.py:listen_error:167 | Process:16368 Thread:9300 | Listen failure: Couldn't listen on 127.0.0.1:8000: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted.
+[CRITICAL] 2026-03-31 12:10:41 | daphne.server | server.py:listen_error:167 | Process:8196 Thread:10280 | Listen failure: Couldn't listen on 127.0.0.1:8000: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted.
+[CRITICAL] 2026-03-31 12:10:50 | daphne.server | server.py:listen_error:167 | Process:4332 Thread:12316 | Listen failure: Couldn't listen on 127.0.0.1:8000: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted.
+[CRITICAL] 2026-03-31 12:11:01 | daphne.server | server.py:listen_error:167 | Process:15708 Thread:15380 | Listen failure: Couldn't listen on 127.0.0.1:8000: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted.
+[CRITICAL] 2026-03-31 12:11:08 | daphne.server | server.py:listen_error:167 | Process:8800 Thread:12388 | Listen failure: Couldn't listen on 127.0.0.1:8000: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted.
+[CRITICAL] 2026-03-31 12:11:13 | daphne.server | server.py:listen_error:167 | Process:17376 Thread:14860 | Listen failure: Couldn't listen on 127.0.0.1:8000: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted.
+[CRITICAL] 2026-03-31 12:20:58 | daphne.server | server.py:listen_error:167 | Process:1776 Thread:11200 | Listen failure: Couldn't listen on 127.0.0.1:8000: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted.
+[ERROR] 2026-03-31 12:22:36 | django.request | log.py:log_response:253 | Process:5208 Thread:14372 | Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "C:\Users\HomePC\Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HomePC\Django\project_two\users\middleware.py", line 25, in __call__
+    return response
+           ^^^^^^^^
+UnboundLocalError: cannot access local variable 'response' where it is not associated with a value
+[ERROR] 2026-03-31 12:22:36 | django.channels.server | runserver.py:log_action:194 | Process:5208 Thread:16720 | [35;1mHTTP GET /admin/ 500 [0.13, 127.0.0.1:55886][0m
+[ERROR] 2026-03-31 12:22:37 | django.request | log.py:log_response:253 | Process:5208 Thread:8572 | Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\HomePC\Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HomePC\Django\project_two\users\middleware.py", line 25, in __call__
+    return response
+           ^^^^^^^^
+UnboundLocalError: cannot access local variable 'response' where it is not associated with a value
+[ERROR] 2026-03-31 12:22:37 | django.channels.server | runserver.py:log_action:194 | Process:5208 Thread:16720 | [35;1mHTTP GET /favicon.ico 500 [0.04, 127.0.0.1:55886][0m
+[CRITICAL] 2026-03-31 12:32:05 | daphne.server | server.py:listen_error:167 | Process:6688 Thread:15272 | Listen failure: Couldn't listen on 127.0.0.1:8000: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted.

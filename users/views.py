@@ -7,10 +7,10 @@ from .permissions import IsAdminOrSelf
 from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView
 from rest_framework.response import Response    
 from django.conf import settings
-
+# a view handling login requests
 class CustomTokenObtainPairView(TokenObtainPairView):
     def post(self, request, *args, **kwargs):
-        #1. get  the standard response(which includes the access and refresh tokens)frpm parent class
+        #1. get  the standard response(which includes the access and refresh tokens)from parent class
         response = super().post(request, *args, **kwargs)
         #remember to include  the platform flag  in your vue.js login request payload, e.g., {username: "user1", password: "pass123", platform: "web"}
         if request.data.get("platform") == "web":#2. check if the login request is coming from the web platform
@@ -29,21 +29,23 @@ class CustomTokenObtainPairView(TokenObtainPairView):
             
                 del response.data['refresh']  # Remove refresh token from response body for security
         return response
-#make sure the tokenrefreshView also checks for the platform flag and sets the cookie accordingly when refreshing tokens,so that the web client can maintain the session seamlessly without needing to handle tokens in JavaScript.
+#make sure the tokenrefreshView also checks for the platform flag and sets the cookie accordingly
+#when refreshing tokens,so that the web client can maintain the session seamlessly without needing to handle tokens in JavaScript.
 class CustomTokenRefreshView(TokenRefreshView):
     def post(self, request, *args, **kwargs):
         response = super().post(request, *args, **kwargs)
-        #if the refresh token is missingfrom the request body,check if it's available in the cookie (for web clients)
+        #if the refresh token is missing from the request body,check if it's available in the cookie (for web clients)
         refresh_token=request.data.get('refresh') or request.COOKIES.get(settings.SIMPLE_JWT['AUTH_COOKIE'])
         if refresh_token:
-            #inject the refresh token back into the request data so that the parent class can process it correctly
+            #inject the refresh token back into the request data so that the parent class can process it correctly.
             request.data['refresh'] = refresh_token
             response = super().post(request, *args, **kwargs)
     
 
 User = get_user_model()
 
-#listing,retrieving,creating,updating,deleting users handled here,done by an admin
+#listing,retrieving,creating,updating,deleting users handled here,done by an admin.
+#A User is also an admin of their own account and thus they can do the above actions.
 class UserViewSet(viewsets.ModelViewSet):
     """ViewSet for managing users."""
     queryset = User.objects.all()
@@ -52,7 +54,7 @@ class UserViewSet(viewsets.ModelViewSet):
 #1. Map Registration to 'create'(POST/ users/)
     def get_serializer_class(self):
         if self.action == "create":
-            return UserCreateSerializer #serializer for creating new users
+            return UserCreateSerializer #serializer for creating new users/Registration of new accounts
         if self.action == "set_password":
             return PasswordSerializer#2.serializer for changing user passwords
         return UserSerializer#3. default for list(GET/users/) and retrieve(GET/users/1/)
@@ -60,13 +62,13 @@ class UserViewSet(viewsets.ModelViewSet):
 #the permissions here are references from both the recipes's permissions.py and user's permissions.py
     def get_permissions(self):
         if self.action == "create":
-            return [permissions.AllowAny()]# anybody can create data
+            return [permissions.AllowAny()]# anybody can create data/User accounts(a public function inside your view)
         if self.action in ["list", "destroy"]:
-            return [permissions.IsAdminUser()]# only admin can list or destroy/a user should be able to delete their acc
+            return [permissions.IsAdminUser()]# only admin can list or destroy/a user should be able to delete their acc(they own admin rights)
         if self.action in ["retrieve", "update", "partial_update", "me", "set_password"]:
-            return [permissions.IsAuthenticated(), IsAdminOrSelf()]# admin or logged-in user themselves
+            return [permissions.IsAuthenticated(), IsAdminOrSelf()]# admin or logged-in user themselves can perform the above actions
 
-    @decorators.action(detail=False, methods=["get"], permission_classes=[permissions.IsAuthenticated])
+    @decorators.action(detail=False, methods=["get"], permission_classes=[permissions.IsAuthenticated])# should allow any here later
     def me(self, request):
         serializer = self.get_serializer(request.user)
         return response.Response(serializer.data)

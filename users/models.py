@@ -36,7 +36,7 @@ class User(AbstractUser):
 
     #custom Roles,also when you add a chef-only feature in future this field will be available
     is_chef=models.BooleanField(default=False)# users can't just claim to chefs unless verified by you in admin panel
-
+    is_blocked=models.BooleanField(default=False)#Admin can block users
     #Audit timestamps
     updated_at=models.DateTimeField(auto_now=True)
     def __str__(self):

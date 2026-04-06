@@ -20,4 +20,7 @@ DATABASES = {
 }
 # in production you will use an actual email service like sendgrid,amazon ses etc
 #but for development,use console backend to print emails to the console
-EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'  
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'  # ... other settings ...
+#Spoonacular API key from environment variable(.env file,add it there)
+SPOONACULAR_API_KEY = os.getenv('SPOONACULAR_API_KEY')
+CELERY_WORKER_POOL = 'solo'  # Uncomment for development or add to dev settings

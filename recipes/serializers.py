@@ -12,11 +12,32 @@ from .models import (
     Collection,
     Variation,
     NutritionInfo,
+    LocalRecipe,
 )
 
 #instead of using depth=1 etc,define "child" serializers above the "parent" serializer
 #This way we can reference them directly in the parent serializer if needed
 #this is how you handle  data transformation and validation in DRF,by using serializers
+class LocalRecipeSerializer(serializers.ModelSerializer):
+    """Serializer for LocalRecipe model.
+    
+    Allows users to view and manage their saved Spoonacular recipes.
+    Each user can only see and manage their own saved recipes.
+    """
+    owner_username = serializers.CharField(source='owner.name', read_only=True)
+    
+    class Meta:
+        model = LocalRecipe
+        fields = ["id", "title", "instructions", "spoonacular_id", "owner", "owner_username"]
+        read_only_fields = ["id", "owner", "owner_username"]
+        extra_kwargs = {
+            "title": {"help_text": "Recipe title from Spoonacular (string)"},
+            "instructions": {"help_text": "Cooking instructions (string)"},
+            "spoonacular_id": {"help_text": "Spoonacular API recipe ID (integer)"},
+            "owner": {"help_text": "User who saved this recipe (automatically set to current user)"},
+        }
+
+
 class IngredientSerializer(serializers.ModelSerializer):
     class Meta:
         model = Ingredient
